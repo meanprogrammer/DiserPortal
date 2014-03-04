@@ -1940,96 +1940,105 @@
 	Protected Sub grdCompetitor_RowDataBound(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.GridViewRowEventArgs) Handles grdCompetitor.RowDataBound
 		System.Threading.Thread.Sleep(500)
 
-		If e.Row.RowType = DataControlRowType.Header Then
-			Dim ddlABrand As DropDownList = e.Row.FindControl("ddlACBrand")
-			Dim ddlACap As DropDownList = e.Row.FindControl("ddlACCap")
-			Dim ddlADate As DropDownList = e.Row.FindControl("ddlACDate")
+        If e.Row.RowType = DataControlRowType.Header Then
+            Dim ddlACProduct As DropDownList = e.Row.FindControl("ddlACProduct")
+            'Dim ddlABrand As DropDownList = e.Row.FindControl("ddlACBrand")
+            Dim ddlACap As DropDownList = e.Row.FindControl("ddlACCap")
+            Dim ddlADate As DropDownList = e.Row.FindControl("ddlACDate")
 
-			If ddlABrand IsNot Nothing Then
-				conn.loadToDropDownList("tbl_CBrand", ddlABrand, False, "*", "", "cBrandID", "cBrand", "cBrand", "")
+            If ddlACProduct IsNot Nothing Then
+                conn.loadToDropDownList("tbl_CProduct", ddlACProduct, False, "*", "", "productID", "product", "productID", "")
 
-				If ddlABrand.Items.Item(0).Text.Trim <> "" Then
-					ddlABrand.Items.Insert(0, "")
-				End If
-			End If
+                If ddlACProduct.Items.Item(0).Text.Trim <> "" Then
+                    ddlACProduct.Items.Insert(0, "")
+                End If
+            End If
 
-			If ddlACap IsNot Nothing Then
-				conn.loadToDropDownList("tbl_CCapacity", ddlACap, False, "*", "", "cCapacityID", "cCapacity", "cCapacityID", "")
+            'If ddlABrand IsNot Nothing Then
+            '    conn.loadToDropDownList("tbl_CBrand", ddlABrand, False, "*", "", "cBrandID", "cBrand", "cBrand", "")
 
-				If ddlACap.Items.Item(0).Text.Trim <> "" Then
-					ddlACap.Items.Insert(0, "")
-				End If
-			End If
+            '    If ddlABrand.Items.Item(0).Text.Trim <> "" Then
+            '        ddlABrand.Items.Insert(0, "")
+            '    End If
+            'End If
 
-			If ddlADate IsNot Nothing Then
-				ddlADate.Items.Clear()
-				'generateDate(ddlADate)
+            If ddlACap IsNot Nothing Then
+                conn.loadToDropDownList("tbl_CCapacity", ddlACap, False, "*", "", "cCapacityID", "cCapacity", "cCapacityID", "")
 
-				If Session("weekID") IsNot Nothing Then
-					where = "weekID = " & Session("weekID")
-					conn.loadToDropDownList("tbl_WDay", ddlADate, False, "*", where, "wDay", "wDay", "", "")
+                If ddlACap.Items.Item(0).Text.Trim <> "" Then
+                    ddlACap.Items.Insert(0, "")
+                End If
+            End If
 
-					If ddlADate.Items.Item(0).Text.Trim <> "" Then
-						ddlADate.Items.Insert(0, "")
-					End If
-				End If
-			End If
+            If ddlADate IsNot Nothing Then
+                ddlADate.Items.Clear()
+                'generateDate(ddlADate)
+
+                If Session("weekID") IsNot Nothing Then
+                    where = "weekID = " & Session("weekID")
+                    conn.loadToDropDownList("tbl_WDay", ddlADate, False, "*", where, "wDay", "wDay", "", "")
+
+                    If ddlADate.Items.Item(0).Text.Trim <> "" Then
+                        ddlADate.Items.Insert(0, "")
+                    End If
+                End If
+            End If
 
 
-		ElseIf e.Row.RowType = DataControlRowType.DataRow Then
-			Dim ddlEBrand As DropDownList = e.Row.FindControl("ddlECBrand")
-			Dim ddlECap As DropDownList = e.Row.FindControl("ddlECCap")
-			Dim ddlEDate As DropDownList = e.Row.FindControl("ddlECDate")
-			Dim lbleDate As Label = e.Row.FindControl("lbleCDate")
-			Dim lbliDate As Label = e.Row.FindControl("lbliCDate")
+        ElseIf e.Row.RowType = DataControlRowType.DataRow Then
+            Dim ddlEBrand As DropDownList = e.Row.FindControl("ddlECBrand")
+            Dim ddlECap As DropDownList = e.Row.FindControl("ddlECCap")
+            Dim ddlEDate As DropDownList = e.Row.FindControl("ddlECDate")
+            Dim lbleDate As Label = e.Row.FindControl("lbleCDate")
+            Dim lbliDate As Label = e.Row.FindControl("lbliCDate")
 
-			If ddlEBrand IsNot Nothing Then
-				conn.loadToDropDownList("tbl_CBrand", ddlEBrand, False, "*", "", "cBrandID", "cBrand", "cBrand", "")
+            If ddlEBrand IsNot Nothing Then
+                conn.loadToDropDownList("tbl_CBrand", ddlEBrand, False, "*", "", "cBrandID", "cBrand", "cBrand", "")
 
-				If ddlEBrand.Items.Item(0).Text.Trim <> "" Then
-					ddlEBrand.Items.Insert(0, "")
-				End If
-			End If
+                If ddlEBrand.Items.Item(0).Text.Trim <> "" Then
+                    ddlEBrand.Items.Insert(0, "")
+                End If
+            End If
 
-			If ddlECap IsNot Nothing Then
-				conn.loadToDropDownList("tbl_CCapacity", ddlECap, False, "*", "", "cCapacityID", "cCapacity", "cCapacityID", "")
+            If ddlECap IsNot Nothing Then
+                conn.loadToDropDownList("tbl_CCapacity", ddlECap, False, "*", "", "cCapacityID", "cCapacity", "cCapacityID", "")
 
-				If ddlECap.Items.Item(0).Text.Trim <> "" Then
-					ddlECap.Items.Insert(0, "")
-				End If
-			End If
+                If ddlECap.Items.Item(0).Text.Trim <> "" Then
+                    ddlECap.Items.Insert(0, "")
+                End If
+            End If
 
-			If ddlEDate IsNot Nothing Then
-				ddlEDate.Items.Clear()
-				'generateDate(ddlEDate)
+            If ddlEDate IsNot Nothing Then
+                ddlEDate.Items.Clear()
+                'generateDate(ddlEDate)
 
-				If Session("weekID") IsNot Nothing Then
-					where = "weekID = " & Session("weekID")
-					conn.loadToDropDownList("tbl_WDay", ddlEDate, False, "*", where, "wDay", "wDay", "", "")
+                If Session("weekID") IsNot Nothing Then
+                    where = "weekID = " & Session("weekID")
+                    conn.loadToDropDownList("tbl_WDay", ddlEDate, False, "*", where, "wDay", "wDay", "", "")
 
-					If ddlEDate.Items.Item(0).Text.Trim <> "" Then
-						ddlEDate.Items.Insert(0, "")
-					End If
-				End If
-			End If
+                    If ddlEDate.Items.Item(0).Text.Trim <> "" Then
+                        ddlEDate.Items.Insert(0, "")
+                    End If
+                End If
+            End If
 
-			'If lbleDate IsNot Nothing Then
-			'    If lbleDate.Text.Trim <> "" Then
-			'        If IsDate(lbleDate.Text.Trim) = True Then
-			'            lbleDate.Text = Format(CDate(lbleDate.Text.Trim), formatToShow)
-			'        End If
-			'    End If
-			'End If
+            'If lbleDate IsNot Nothing Then
+            '    If lbleDate.Text.Trim <> "" Then
+            '        If IsDate(lbleDate.Text.Trim) = True Then
+            '            lbleDate.Text = Format(CDate(lbleDate.Text.Trim), formatToShow)
+            '        End If
+            '    End If
+            'End If
 
-			'If lbliDate IsNot Nothing Then
-			'    If lbliDate.Text.Trim <> "" Then
-			'        If IsDate(lbliDate.Text.Trim) = True Then
-			'            lbliDate.Text = Format(CDate(lbliDate.Text.Trim), formatToShow)
-			'        End If
-			'    End If
-			'End If
-		End If
-	End Sub
+            'If lbliDate IsNot Nothing Then
+            '    If lbliDate.Text.Trim <> "" Then
+            '        If IsDate(lbliDate.Text.Trim) = True Then
+            '            lbliDate.Text = Format(CDate(lbliDate.Text.Trim), formatToShow)
+            '        End If
+            '    End If
+            'End If
+        End If
+    End Sub
 
     Protected Sub grdCompetitor_RowEditing(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.GridViewEditEventArgs) Handles grdCompetitor.RowEditing
 		System.Threading.Thread.Sleep(500)
@@ -2042,20 +2051,21 @@
         lbleMsg.Text = ""
 
         With grdCompetitor.Rows(e.RowIndex)
+            Dim ddlCProduct As DropDownList = .FindControl("ddlACProduct")
             Dim ddlBrand As DropDownList = .FindControl("ddlECBrand")
             Dim ddlCap As DropDownList = .FindControl("ddlECCap")
             Dim ddlQty As TextBox = .FindControl("ddlECQty")
             Dim ddlDate As DropDownList = .FindControl("ddlECDate")
-			Dim txtFactor As TextBox = .FindControl("txtEFactor")
+            Dim txtFactor As TextBox = .FindControl("txtEFactor")
 
             If checkCompete(ddlBrand, ddlCap, ddlQty, ddlDate, txtFactor) = False Then
-				Exit Sub
+                Exit Sub
 
-			Else
-				Dim competeID As String = grdCompetitor.DataKeys.Item(e.RowIndex).Value
+            Else
+                Dim competeID As String = grdCompetitor.DataKeys.Item(e.RowIndex).Value
 
-                updateCompetitor(competeID, ddlBrand, ddlCap, ddlQty, ddlDate, txtFactor)
-			End If
+                updateCompetitor(competeID, ddlCProduct, ddlBrand, ddlCap, ddlQty, ddlDate, txtFactor)
+            End If
 
             grdCompetitor.DataBind()
         End With
@@ -2295,54 +2305,63 @@
 		'End If
 	End Function
 
-	Public Sub updateCompetitor(ByVal recNo As String, _
-									ByVal ddlBrand As DropDownList, _
-									ByVal ddlCap As DropDownList, _
-									ByVal ddlQty As TextBox, _
-									ByVal ddlDate As DropDownList, _
-                                    ByVal txtFactor As TextBox)
+    Public Sub updateCompetitor(ByVal recNo As String, _
+                                    ByVal ddlCProduct As DropDownList, _
+                                    ByVal ddlBrand As DropDownList, _
+                                    ByVal ddlCap As DropDownList, _
+                                    ByVal ddlQty As TextBox, _
+                                    ByVal ddlDate As DropDownList, _
+                                       ByVal txtFactor As TextBox)
 
-		With conn
-            Dim fld(4), val(4), dt(4) As String
+        With conn
+            Dim fld(5), val(5), dt(5) As String
 
-			fld(0) = "cBrandID"
-			fld(1) = "qty"
-			fld(2) = "csDate"
-			fld(3) = "factor"
-			fld(4) = "cCapacityID"
+            fld(0) = "cBrandID"
+            fld(1) = "qty"
+            fld(2) = "csDate"
+            fld(3) = "factor"
+            fld(4) = "cCapacityID"
+            fld(5) = "cProductID"
 
-			dt(0) = "N"
-			dt(1) = "N"
-			dt(2) = "C"
-			dt(3) = "C"
-			dt(4) = "N"
+            dt(0) = "N"
+            dt(1) = "N"
+            dt(2) = "C"
+            dt(3) = "C"
+            dt(4) = "N"
+            dt(5) = "N"
 
-			val(0) = ddlBrand.SelectedValue.Trim
+            val(0) = ddlBrand.SelectedValue.Trim
 
-			If ddlQty.Text.Trim = "" Or IsNumeric(ddlQty.Text.Trim) = False Then
-				val(1) = "0"
-			Else
-				val(1) = ddlQty.Text.Trim
-			End If
+            If ddlQty.Text.Trim = "" Or IsNumeric(ddlQty.Text.Trim) = False Then
+                val(1) = "0"
+            Else
+                val(1) = ddlQty.Text.Trim
+            End If
 
-			If ddlDate.SelectedValue.Trim = "" Then
-				val(2) = ""
-			Else
-				val(2) = ddlDate.SelectedValue.Trim
-			End If
+            If ddlDate.SelectedValue.Trim = "" Then
+                val(2) = ""
+            Else
+                val(2) = ddlDate.SelectedValue.Trim
+            End If
 
-			val(3) = Replace(txtFactor.Text.Trim, "'", "''")
+            val(3) = Replace(txtFactor.Text.Trim, "'", "''")
 
-			If ddlCap.SelectedValue.Trim = "" Then
-				val(4) = ""
-			Else
-				val(4) = ddlCap.SelectedValue.Trim
-			End If
+            If ddlCap.SelectedValue.Trim = "" Then
+                val(4) = ""
+            Else
+                val(4) = ddlCap.SelectedValue.Trim
+            End If
 
-			where = "competeID = " & recNo
-			.UpdateDB("tbl_Competitor", fld, val, dt, where)
-		End With
-	End Sub
+            If ddlCProduct.SelectedValue.Trim = "" Then
+                val(5) = ""
+            Else
+                val(5) = ddlCProduct.SelectedValue.Trim
+            End If
+
+            where = "competeID = " & recNo
+            .UpdateDB("tbl_Competitor", fld, val, dt, where)
+        End With
+    End Sub
 
 	Public Sub saveCompetitor(ByVal ddlBrand As DropDownList, ByVal ddlCap As DropDownList, ByVal ddlQty As TextBox, _
                                 ByVal ddlDate As DropDownList, ByVal txtFactor As TextBox)
@@ -2852,7 +2871,8 @@
 		checkSession()
 		lbleMsg.Text = ""
 
-		Dim imbSave As ImageButton = sender
+        Dim imbSave As ImageButton = sender
+        Dim ddlACProduct As DropDownList = sender.namingcontainer.FindControl("ddlACProduct")
 		Dim ddlBrand As DropDownList = sender.namingcontainer.FindControl("ddlaCBrand")
 		Dim ddlCap As DropDownList = sender.namingcontainer.FindControl("ddlaCCap")
 		Dim ddlQty As TextBox = sender.namingcontainer.FindControl("ddlACQty")
@@ -2883,7 +2903,7 @@
 				Else
 					Do While cnt <= UBound(num) + 1
 						If brand(counter) = "" Then
-                            updateCompetitor(num(counter), ddlBrand, ddlCap, ddlQty, ddlDate, txtFactor)
+                            updateCompetitor(num(counter), ddlACProduct, ddlBrand, ddlCap, ddlQty, ddlDate, txtFactor)
 							saveStat = True
 
 							grdCompetitor.DataBind()
@@ -3688,5 +3708,24 @@
 	Protected Sub btnUpload_Click(ByVal sender As Object, ByVal e As EventArgs) Handles btnUpload.Click
 		checkSession()
 		Response.Redirect("~/Sales/SalesUpload.aspx")
-	End Sub
+    End Sub
+
+    Protected Sub ddlACProdProduct_SelectedIndexChanged(ByVal sender As Object, ByVal e As System.EventArgs)
+        System.Threading.Thread.Sleep(500)
+        checkSession()
+        lbleMsg.Text = ""
+
+        Dim ddlProd As DropDownList = sender
+        Dim ddlACBrand As DropDownList = sender.namingcontainer.FindControl("ddlACBrand")
+
+        With conn
+            If ddlProd.SelectedValue = "" Then
+                ddlACBrand.Items.Clear()
+            Else
+                'load brand
+                .loadToDropDownList("tbl_CBrand", ddlACBrand, False, "*", String.Empty, "cBrandID", "cBrand", "", "")
+            End If
+        End With
+    End Sub
+
 End Class

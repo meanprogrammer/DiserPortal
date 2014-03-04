@@ -24,11 +24,3 @@ D:\Copy\Web Projects\wwwCarrierDiser-Portal\DiserPortal\DiserPortal\obj\Debug\Di
 D:\Copy\Web Projects\wwwCarrierDiser-Portal\DiserPortal\DiserPortal\obj\Debug\DiserPortal.dll
 D:\Copy\Web Projects\wwwCarrierDiser-Portal\DiserPortal\DiserPortal\obj\Debug\DiserPortal.xml
 D:\Copy\Web Projects\wwwCarrierDiser-Portal\DiserPortal\DiserPortal\obj\Debug\DiserPortal.pdb
-C:\Users\Administrator\Desktop\Carrier\wwwCarrierDiser-Portal\DiserPortal\DiserPortal\bin\DiserPortal.dll
-C:\Users\Administrator\Desktop\Carrier\wwwCarrierDiser-Portal\DiserPortal\DiserPortal\bin\DiserPortal.pdb
-C:\Users\Administrator\Desktop\Carrier\wwwCarrierDiser-Portal\DiserPortal\DiserPortal\bin\DiserPortal.xml
-C:\Users\Administrator\Desktop\Carrier\wwwCarrierDiser-Portal\DiserPortal\DiserPortal\obj\Debug\DiserPortal.Resources.resources
-C:\Users\Administrator\Desktop\Carrier\wwwCarrierDiser-Portal\DiserPortal\DiserPortal\obj\Debug\DiserPortal.vbproj.GenerateResource.Cache
-C:\Users\Administrator\Desktop\Carrier\wwwCarrierDiser-Portal\DiserPortal\DiserPortal\obj\Debug\DiserPortal.dll
-C:\Users\Administrator\Desktop\Carrier\wwwCarrierDiser-Portal\DiserPortal\DiserPortal\obj\Debug\DiserPortal.xml
-C:\Users\Administrator\Desktop\Carrier\wwwCarrierDiser-Portal\DiserPortal\DiserPortal\obj\Debug\DiserPortal.pdb

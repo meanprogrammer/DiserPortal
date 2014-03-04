@@ -13,1173 +13,1191 @@ Option Explicit On
 
 Partial Public Class ReportUpdate
 
-	'''<summary>
-	'''updTM control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents updTM As Global.System.Web.UI.UpdatePanel
-
-	'''<summary>
-	'''PageUpdateProgress2 control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents PageUpdateProgress2 As Global.System.Web.UI.UpdateProgress
-
-	'''<summary>
-	'''lProd control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents lProd As Global.System.Web.UI.HtmlControls.HtmlGenericControl
-
-	'''<summary>
-	'''lnkProd control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents lnkProd As Global.System.Web.UI.WebControls.LinkButton
-
-	'''<summary>
-	'''lTMSales control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents lTMSales As Global.System.Web.UI.HtmlControls.HtmlGenericControl
-
-	'''<summary>
-	'''lnkTMSales control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents lnkTMSales As Global.System.Web.UI.WebControls.LinkButton
-
-	'''<summary>
-	'''lCompete control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents lCompete As Global.System.Web.UI.HtmlControls.HtmlGenericControl
-
-	'''<summary>
-	'''lnkCompete control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents lnkCompete As Global.System.Web.UI.WebControls.LinkButton
-
-	'''<summary>
-	'''lStocks control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents lStocks As Global.System.Web.UI.HtmlControls.HtmlGenericControl
-
-	'''<summary>
-	'''lnkStocks control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents lnkStocks As Global.System.Web.UI.WebControls.LinkButton
-
-	'''<summary>
-	'''lInventory control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents lInventory As Global.System.Web.UI.HtmlControls.HtmlGenericControl
-
-	'''<summary>
-	'''lnkInventory control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents lnkInventory As Global.System.Web.UI.WebControls.LinkButton
-
-	'''<summary>
-	'''lbleMsg control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents lbleMsg As Global.System.Web.UI.WebControls.Label
-
-	'''<summary>
-	'''panInfo control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents panInfo As Global.System.Web.UI.WebControls.Panel
-
-	'''<summary>
-	'''lblifProd control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents lblifProd As Global.System.Web.UI.WebControls.Label
-
-	'''<summary>
-	'''lblifBrand control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents lblifBrand As Global.System.Web.UI.WebControls.Label
-
-	'''<summary>
-	'''imbClose control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents imbClose As Global.System.Web.UI.WebControls.ImageButton
-
-	'''<summary>
-	'''grdInfo control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents grdInfo As Global.System.Web.UI.WebControls.GridView
-
-	'''<summary>
-	'''panSales control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents panSales As Global.System.Web.UI.WebControls.Panel
-
-	'''<summary>
-	'''panFilter control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents panFilter As Global.System.Web.UI.WebControls.Panel
-
-	'''<summary>
-	'''ddlFilter control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents ddlFilter As Global.System.Web.UI.WebControls.DropDownList
-
-	'''<summary>
-	'''pnlFC control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents pnlFC As Global.System.Web.UI.WebControls.Panel
-
-	'''<summary>
-	'''ddlFC control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents ddlFC As Global.System.Web.UI.WebControls.DropDownList
-
-	'''<summary>
-	'''lblDate control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents lblDate As Global.System.Web.UI.WebControls.Label
-
-	'''<summary>
-	'''ddlDate control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents ddlDate As Global.System.Web.UI.WebControls.DropDownList
-
-	'''<summary>
-	'''ddlEmp control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents ddlEmp As Global.System.Web.UI.WebControls.DropDownList
-
-	'''<summary>
-	'''grdSales control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents grdSales As Global.System.Web.UI.WebControls.GridView
-
-	'''<summary>
-	'''panData control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents panData As Global.System.Web.UI.WebControls.Panel
-
-	'''<summary>
-	'''txtFname control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents txtFname As Global.System.Web.UI.WebControls.TextBox
-
-	'''<summary>
-	'''txtLname control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents txtLname As Global.System.Web.UI.WebControls.TextBox
-
-	'''<summary>
-	'''txtAdd control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents txtAdd As Global.System.Web.UI.WebControls.TextBox
-
-	'''<summary>
-	'''ddlCity control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents ddlCity As Global.System.Web.UI.WebControls.DropDownList
-
-	'''<summary>
-	'''txtContact control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents txtContact As Global.System.Web.UI.WebControls.TextBox
-
-	'''<summary>
-	'''ddlProd control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents ddlProd As Global.System.Web.UI.WebControls.DropDownList
-
-	'''<summary>
-	'''ddlDBrand control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents ddlDBrand As Global.System.Web.UI.WebControls.DropDownList
-
-	'''<summary>
-	'''imbShow control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents imbShow As Global.System.Web.UI.WebControls.ImageButton
-
-	'''<summary>
-	'''ddlSCode control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents ddlSCode As Global.System.Web.UI.WebControls.DropDownList
-
-	'''<summary>
-	'''txtQty control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents txtQty As Global.System.Web.UI.WebControls.TextBox
-
-	'''<summary>
-	'''ddlWeek control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents ddlWeek As Global.System.Web.UI.WebControls.DropDownList
-
-	'''<summary>
-	'''ddlDP control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents ddlDP As Global.System.Web.UI.WebControls.DropDownList
-
-	'''<summary>
-	'''txtSerial control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents txtSerial As Global.System.Web.UI.WebControls.TextBox
-
-	'''<summary>
-	'''txtInvoice control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents txtInvoice As Global.System.Web.UI.WebControls.TextBox
-
-	'''<summary>
-	'''btnModify control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents btnModify As Global.System.Web.UI.WebControls.Button
-
-	'''<summary>
-	'''btnCancel control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents btnCancel As Global.System.Web.UI.WebControls.Button
-
-	'''<summary>
-	'''panCompete control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents panCompete As Global.System.Web.UI.WebControls.Panel
-
-	'''<summary>
-	'''panCFilter control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents panCFilter As Global.System.Web.UI.WebControls.Panel
-
-	'''<summary>
-	'''ddlCFilter control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents ddlCFilter As Global.System.Web.UI.WebControls.DropDownList
-
-	'''<summary>
-	'''ddlBrand control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents ddlBrand As Global.System.Web.UI.WebControls.DropDownList
-
-	'''<summary>
-	'''lblCDate control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents lblCDate As Global.System.Web.UI.WebControls.Label
-
-	'''<summary>
-	'''ddlCDate control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents ddlCDate As Global.System.Web.UI.WebControls.DropDownList
-
-	'''<summary>
-	'''grdCompete control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents grdCompete As Global.System.Web.UI.WebControls.GridView
-
-	'''<summary>
-	'''panCData control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents panCData As Global.System.Web.UI.WebControls.Panel
-
-	'''<summary>
-	'''ddlCDBrand control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents ddlCDBrand As Global.System.Web.UI.WebControls.DropDownList
-
-	'''<summary>
-	'''ddlCCap control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents ddlCCap As Global.System.Web.UI.WebControls.DropDownList
-
-	'''<summary>
-	'''txtCQty control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents txtCQty As Global.System.Web.UI.WebControls.TextBox
-
-	'''<summary>
-	'''ddlCWeek control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents ddlCWeek As Global.System.Web.UI.WebControls.DropDownList
-
-	'''<summary>
-	'''ddlCDP control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents ddlCDP As Global.System.Web.UI.WebControls.DropDownList
-
-	'''<summary>
-	'''txtFactor control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents txtFactor As Global.System.Web.UI.WebControls.TextBox
-
-	'''<summary>
-	'''btnCModify control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents btnCModify As Global.System.Web.UI.WebControls.Button
-
-	'''<summary>
-	'''btnCCancel control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents btnCCancel As Global.System.Web.UI.WebControls.Button
-
-	'''<summary>
-	'''panStocks control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents panStocks As Global.System.Web.UI.WebControls.Panel
-
-	'''<summary>
-	'''panSFilter control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents panSFilter As Global.System.Web.UI.WebControls.Panel
-
-	'''<summary>
-	'''ddlSFilter control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents ddlSFilter As Global.System.Web.UI.WebControls.DropDownList
-
-	'''<summary>
-	'''pnlSFC control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents pnlSFC As Global.System.Web.UI.WebControls.Panel
-
-	'''<summary>
-	'''ddlSFC control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents ddlSFC As Global.System.Web.UI.WebControls.DropDownList
-
-	'''<summary>
-	'''lblSDate control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents lblSDate As Global.System.Web.UI.WebControls.Label
-
-	'''<summary>
-	'''ddlSDate control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents ddlSDate As Global.System.Web.UI.WebControls.DropDownList
-
-	'''<summary>
-	'''ddlSEmp control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents ddlSEmp As Global.System.Web.UI.WebControls.DropDownList
-
-	'''<summary>
-	'''grdStocks control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents grdStocks As Global.System.Web.UI.WebControls.GridView
-
-	'''<summary>
-	'''panSData control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents panSData As Global.System.Web.UI.WebControls.Panel
-
-	'''<summary>
-	'''ddlSProd control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents ddlSProd As Global.System.Web.UI.WebControls.DropDownList
-
-	'''<summary>
-	'''ddlSDBrand control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents ddlSDBrand As Global.System.Web.UI.WebControls.DropDownList
-
-	'''<summary>
-	'''imbSShow control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents imbSShow As Global.System.Web.UI.WebControls.ImageButton
-
-	'''<summary>
-	'''ddlSSCode control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents ddlSSCode As Global.System.Web.UI.WebControls.DropDownList
-
-	'''<summary>
-	'''ddlSWeek control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents ddlSWeek As Global.System.Web.UI.WebControls.DropDownList
-
-	'''<summary>
-	'''ddlSDP control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents ddlSDP As Global.System.Web.UI.WebControls.DropDownList
-
-	'''<summary>
-	'''ddlAction control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents ddlAction As Global.System.Web.UI.WebControls.DropDownList
-
-	'''<summary>
-	'''txtOthers control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents txtOthers As Global.System.Web.UI.WebControls.TextBox
-
-	'''<summary>
-	'''txtPromo control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents txtPromo As Global.System.Web.UI.WebControls.TextBox
-
-	'''<summary>
-	'''btnSModify control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents btnSModify As Global.System.Web.UI.WebControls.Button
-
-	'''<summary>
-	'''btnSCancel control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents btnSCancel As Global.System.Web.UI.WebControls.Button
-
-	'''<summary>
-	'''panInventory control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents panInventory As Global.System.Web.UI.WebControls.Panel
-
-	'''<summary>
-	'''panIFilter control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents panIFilter As Global.System.Web.UI.WebControls.Panel
-
-	'''<summary>
-	'''ddlIFilter control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents ddlIFilter As Global.System.Web.UI.WebControls.DropDownList
-
-	'''<summary>
-	'''pnlIFC control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents pnlIFC As Global.System.Web.UI.WebControls.Panel
-
-	'''<summary>
-	'''ddlIFC control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents ddlIFC As Global.System.Web.UI.WebControls.DropDownList
-
-	'''<summary>
-	'''lblIDate control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents lblIDate As Global.System.Web.UI.WebControls.Label
-
-	'''<summary>
-	'''ddlIDate control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents ddlIDate As Global.System.Web.UI.WebControls.DropDownList
-
-	'''<summary>
-	'''ddlIEmp control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents ddlIEmp As Global.System.Web.UI.WebControls.DropDownList
-
-	'''<summary>
-	'''grdInventory control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents grdInventory As Global.System.Web.UI.WebControls.GridView
-
-	'''<summary>
-	'''panIData control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents panIData As Global.System.Web.UI.WebControls.Panel
-
-	'''<summary>
-	'''ddlIProd control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents ddlIProd As Global.System.Web.UI.WebControls.DropDownList
-
-	'''<summary>
-	'''ddlIDBrand control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents ddlIDBrand As Global.System.Web.UI.WebControls.DropDownList
-
-	'''<summary>
-	'''imbIShow control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents imbIShow As Global.System.Web.UI.WebControls.ImageButton
-
-	'''<summary>
-	'''ddlISCode control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents ddlISCode As Global.System.Web.UI.WebControls.DropDownList
-
-	'''<summary>
-	'''txtIQty control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents txtIQty As Global.System.Web.UI.WebControls.TextBox
-
-	'''<summary>
-	'''txtComments control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents txtComments As Global.System.Web.UI.WebControls.TextBox
-
-	'''<summary>
-	'''btnIModify control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents btnIModify As Global.System.Web.UI.WebControls.Button
-
-	'''<summary>
-	'''btnICancel control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents btnICancel As Global.System.Web.UI.WebControls.Button
-
-	'''<summary>
-	'''panTMSales control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents panTMSales As Global.System.Web.UI.WebControls.Panel
-
-	'''<summary>
-	'''panTFilter control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents panTFilter As Global.System.Web.UI.WebControls.Panel
-
-	'''<summary>
-	'''ddlTFilter control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents ddlTFilter As Global.System.Web.UI.WebControls.DropDownList
-
-	'''<summary>
-	'''pnlTFC control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents pnlTFC As Global.System.Web.UI.WebControls.Panel
-
-	'''<summary>
-	'''ddlTFC control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents ddlTFC As Global.System.Web.UI.WebControls.DropDownList
-
-	'''<summary>
-	'''lblTDate control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents lblTDate As Global.System.Web.UI.WebControls.Label
-
-	'''<summary>
-	'''ddlTDate control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents ddlTDate As Global.System.Web.UI.WebControls.DropDownList
-
-	'''<summary>
-	'''ddlTEmp control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents ddlTEmp As Global.System.Web.UI.WebControls.DropDownList
-
-	'''<summary>
-	'''grdTM control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents grdTM As Global.System.Web.UI.WebControls.GridView
-
-	'''<summary>
-	'''panTData control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents panTData As Global.System.Web.UI.WebControls.Panel
-
-	'''<summary>
-	'''txtTFname control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents txtTFname As Global.System.Web.UI.WebControls.TextBox
-
-	'''<summary>
-	'''txtTLname control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents txtTLname As Global.System.Web.UI.WebControls.TextBox
-
-	'''<summary>
-	'''txtTAdd control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents txtTAdd As Global.System.Web.UI.WebControls.TextBox
-
-	'''<summary>
-	'''ddlTCity control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents ddlTCity As Global.System.Web.UI.WebControls.DropDownList
-
-	'''<summary>
-	'''txtTContact control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents txtTContact As Global.System.Web.UI.WebControls.TextBox
-
-	'''<summary>
-	'''ddlTProd control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents ddlTProd As Global.System.Web.UI.WebControls.DropDownList
-
-	'''<summary>
-	'''ddlTDBrand control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents ddlTDBrand As Global.System.Web.UI.WebControls.DropDownList
-
-	'''<summary>
-	'''ddlTSCode control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents ddlTSCode As Global.System.Web.UI.WebControls.DropDownList
-
-	'''<summary>
-	'''txtTQty control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents txtTQty As Global.System.Web.UI.WebControls.TextBox
-
-	'''<summary>
-	'''ddlTWeek control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents ddlTWeek As Global.System.Web.UI.WebControls.DropDownList
-
-	'''<summary>
-	'''ddlTDP control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents ddlTDP As Global.System.Web.UI.WebControls.DropDownList
-
-	'''<summary>
-	'''txtTSerial control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents txtTSerial As Global.System.Web.UI.WebControls.TextBox
-
-	'''<summary>
-	'''txtTInvoice control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents txtTInvoice As Global.System.Web.UI.WebControls.TextBox
-
-	'''<summary>
-	'''btnTModify control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents btnTModify As Global.System.Web.UI.WebControls.Button
-
-	'''<summary>
-	'''btnTCancel control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents btnTCancel As Global.System.Web.UI.WebControls.Button
-
-	'''<summary>
-	'''sqlDS_Sales control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents sqlDS_Sales As Global.System.Web.UI.WebControls.SqlDataSource
-
-	'''<summary>
-	'''sqlDS_Compete control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents sqlDS_Compete As Global.System.Web.UI.WebControls.SqlDataSource
-
-	'''<summary>
-	'''sqlDS_Stocks control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents sqlDS_Stocks As Global.System.Web.UI.WebControls.SqlDataSource
-
-	'''<summary>
-	'''sqlDS_Info control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents sqlDS_Info As Global.System.Web.UI.WebControls.SqlDataSource
-
-	'''<summary>
-	'''sqlDS_Inventory control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents sqlDS_Inventory As Global.System.Web.UI.WebControls.SqlDataSource
-
-	'''<summary>
-	'''sqlDS_TMSales control.
-	'''</summary>
-	'''<remarks>
-	'''Auto-generated field.
-	'''To modify move field declaration from designer file to code-behind file.
-	'''</remarks>
-	Protected WithEvents sqlDS_TMSales As Global.System.Web.UI.WebControls.SqlDataSource
+    '''<summary>
+    '''updTM control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents updTM As Global.System.Web.UI.UpdatePanel
+
+    '''<summary>
+    '''PageUpdateProgress2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents PageUpdateProgress2 As Global.System.Web.UI.UpdateProgress
+
+    '''<summary>
+    '''lProd control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lProd As Global.System.Web.UI.HtmlControls.HtmlGenericControl
+
+    '''<summary>
+    '''lnkProd control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lnkProd As Global.System.Web.UI.WebControls.LinkButton
+
+    '''<summary>
+    '''lTMSales control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lTMSales As Global.System.Web.UI.HtmlControls.HtmlGenericControl
+
+    '''<summary>
+    '''lnkTMSales control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lnkTMSales As Global.System.Web.UI.WebControls.LinkButton
+
+    '''<summary>
+    '''lCompete control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lCompete As Global.System.Web.UI.HtmlControls.HtmlGenericControl
+
+    '''<summary>
+    '''lnkCompete control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lnkCompete As Global.System.Web.UI.WebControls.LinkButton
+
+    '''<summary>
+    '''lStocks control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lStocks As Global.System.Web.UI.HtmlControls.HtmlGenericControl
+
+    '''<summary>
+    '''lnkStocks control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lnkStocks As Global.System.Web.UI.WebControls.LinkButton
+
+    '''<summary>
+    '''lInventory control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lInventory As Global.System.Web.UI.HtmlControls.HtmlGenericControl
+
+    '''<summary>
+    '''lnkInventory control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lnkInventory As Global.System.Web.UI.WebControls.LinkButton
+
+    '''<summary>
+    '''lbleMsg control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lbleMsg As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''panInfo control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents panInfo As Global.System.Web.UI.WebControls.Panel
+
+    '''<summary>
+    '''lblifProd control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lblifProd As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''lblifBrand control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lblifBrand As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''imbClose control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents imbClose As Global.System.Web.UI.WebControls.ImageButton
+
+    '''<summary>
+    '''grdInfo control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents grdInfo As Global.System.Web.UI.WebControls.GridView
+
+    '''<summary>
+    '''panSales control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents panSales As Global.System.Web.UI.WebControls.Panel
+
+    '''<summary>
+    '''panFilter control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents panFilter As Global.System.Web.UI.WebControls.Panel
+
+    '''<summary>
+    '''ddlFilter control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ddlFilter As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
+    '''pnlUtype control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents pnlUtype As Global.System.Web.UI.WebControls.Panel
+
+    '''<summary>
+    '''ddlUserType control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ddlUserType As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
+    '''lblDate control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lblDate As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''ddlDate control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ddlDate As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
+    '''FCPromoLabel control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents FCPromoLabel As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''ddlEmp control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ddlEmp As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
+    '''ddlFC control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ddlFC As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
+    '''grdSales control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents grdSales As Global.System.Web.UI.WebControls.GridView
+
+    '''<summary>
+    '''panData control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents panData As Global.System.Web.UI.WebControls.Panel
+
+    '''<summary>
+    '''txtFname control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents txtFname As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''txtLname control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents txtLname As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''txtAdd control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents txtAdd As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''ddlCity control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ddlCity As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
+    '''txtContact control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents txtContact As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''ddlProd control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ddlProd As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
+    '''ddlDBrand control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ddlDBrand As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
+    '''imbShow control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents imbShow As Global.System.Web.UI.WebControls.ImageButton
+
+    '''<summary>
+    '''ddlSCode control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ddlSCode As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
+    '''txtQty control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents txtQty As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''ddlWeek control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ddlWeek As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
+    '''ddlDP control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ddlDP As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
+    '''txtSerial control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents txtSerial As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''txtInvoice control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents txtInvoice As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''btnModify control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents btnModify As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''btnCancel control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents btnCancel As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''panCompete control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents panCompete As Global.System.Web.UI.WebControls.Panel
+
+    '''<summary>
+    '''panCFilter control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents panCFilter As Global.System.Web.UI.WebControls.Panel
+
+    '''<summary>
+    '''ddlCFilter control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ddlCFilter As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
+    '''ddlBrand control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ddlBrand As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
+    '''lblCDate control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lblCDate As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''ddlCDate control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ddlCDate As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
+    '''grdCompete control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents grdCompete As Global.System.Web.UI.WebControls.GridView
+
+    '''<summary>
+    '''panCData control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents panCData As Global.System.Web.UI.WebControls.Panel
+
+    '''<summary>
+    '''ddlCDBrand control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ddlCDBrand As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
+    '''ddlCCap control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ddlCCap As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
+    '''txtCQty control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents txtCQty As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''ddlCWeek control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ddlCWeek As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
+    '''ddlCDP control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ddlCDP As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
+    '''txtFactor control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents txtFactor As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''btnCModify control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents btnCModify As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''btnCCancel control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents btnCCancel As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''panStocks control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents panStocks As Global.System.Web.UI.WebControls.Panel
+
+    '''<summary>
+    '''panSFilter control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents panSFilter As Global.System.Web.UI.WebControls.Panel
+
+    '''<summary>
+    '''ddlSFilter control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ddlSFilter As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
+    '''pnlSFC control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents pnlSFC As Global.System.Web.UI.WebControls.Panel
+
+    '''<summary>
+    '''ddlSFC control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ddlSFC As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
+    '''lblSDate control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lblSDate As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''ddlSDate control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ddlSDate As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
+    '''ddlSEmp control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ddlSEmp As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
+    '''grdStocks control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents grdStocks As Global.System.Web.UI.WebControls.GridView
+
+    '''<summary>
+    '''panSData control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents panSData As Global.System.Web.UI.WebControls.Panel
+
+    '''<summary>
+    '''ddlSProd control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ddlSProd As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
+    '''ddlSDBrand control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ddlSDBrand As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
+    '''imbSShow control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents imbSShow As Global.System.Web.UI.WebControls.ImageButton
+
+    '''<summary>
+    '''ddlSSCode control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ddlSSCode As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
+    '''ddlSWeek control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ddlSWeek As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
+    '''ddlSDP control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ddlSDP As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
+    '''ddlAction control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ddlAction As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
+    '''txtOthers control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents txtOthers As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''txtPromo control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents txtPromo As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''btnSModify control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents btnSModify As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''btnSCancel control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents btnSCancel As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''panInventory control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents panInventory As Global.System.Web.UI.WebControls.Panel
+
+    '''<summary>
+    '''panIFilter control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents panIFilter As Global.System.Web.UI.WebControls.Panel
+
+    '''<summary>
+    '''ddlIFilter control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ddlIFilter As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
+    '''pnlIFC control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents pnlIFC As Global.System.Web.UI.WebControls.Panel
+
+    '''<summary>
+    '''ddlIFC control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ddlIFC As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
+    '''lblIDate control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lblIDate As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''ddlIDate control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ddlIDate As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
+    '''ddlIEmp control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ddlIEmp As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
+    '''grdInventory control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents grdInventory As Global.System.Web.UI.WebControls.GridView
+
+    '''<summary>
+    '''panIData control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents panIData As Global.System.Web.UI.WebControls.Panel
+
+    '''<summary>
+    '''ddlIProd control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ddlIProd As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
+    '''ddlIDBrand control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ddlIDBrand As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
+    '''imbIShow control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents imbIShow As Global.System.Web.UI.WebControls.ImageButton
+
+    '''<summary>
+    '''ddlISCode control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ddlISCode As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
+    '''txtIQty control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents txtIQty As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''txtComments control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents txtComments As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''btnIModify control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents btnIModify As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''btnICancel control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents btnICancel As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''panTMSales control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents panTMSales As Global.System.Web.UI.WebControls.Panel
+
+    '''<summary>
+    '''panTFilter control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents panTFilter As Global.System.Web.UI.WebControls.Panel
+
+    '''<summary>
+    '''ddlTFilter control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ddlTFilter As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
+    '''pnlTFC control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents pnlTFC As Global.System.Web.UI.WebControls.Panel
+
+    '''<summary>
+    '''ddlTFC control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ddlTFC As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
+    '''lblTDate control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lblTDate As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''ddlTDate control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ddlTDate As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
+    '''ddlTEmp control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ddlTEmp As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
+    '''grdTM control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents grdTM As Global.System.Web.UI.WebControls.GridView
+
+    '''<summary>
+    '''panTData control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents panTData As Global.System.Web.UI.WebControls.Panel
+
+    '''<summary>
+    '''txtTFname control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents txtTFname As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''txtTLname control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents txtTLname As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''txtTAdd control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents txtTAdd As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''ddlTCity control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ddlTCity As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
+    '''txtTContact control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents txtTContact As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''ddlTProd control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ddlTProd As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
+    '''ddlTDBrand control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ddlTDBrand As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
+    '''ddlTSCode control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ddlTSCode As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
+    '''txtTQty control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents txtTQty As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''ddlTWeek control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ddlTWeek As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
+    '''ddlTDP control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ddlTDP As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
+    '''txtTSerial control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents txtTSerial As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''txtTInvoice control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents txtTInvoice As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''btnTModify control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents btnTModify As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''btnTCancel control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents btnTCancel As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''sqlDS_Sales control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents sqlDS_Sales As Global.System.Web.UI.WebControls.SqlDataSource
+
+    '''<summary>
+    '''sqlDS_Compete control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents sqlDS_Compete As Global.System.Web.UI.WebControls.SqlDataSource
+
+    '''<summary>
+    '''sqlDS_Stocks control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents sqlDS_Stocks As Global.System.Web.UI.WebControls.SqlDataSource
+
+    '''<summary>
+    '''sqlDS_Info control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents sqlDS_Info As Global.System.Web.UI.WebControls.SqlDataSource
+
+    '''<summary>
+    '''sqlDS_Inventory control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents sqlDS_Inventory As Global.System.Web.UI.WebControls.SqlDataSource
+
+    '''<summary>
+    '''sqlDS_TMSales control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents sqlDS_TMSales As Global.System.Web.UI.WebControls.SqlDataSource
 End Class

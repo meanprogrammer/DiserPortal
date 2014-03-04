@@ -129,10 +129,16 @@
 												</asp:DropDownList>
 											</td>
 											<td width="20">&nbsp;</td>
-											<asp:Panel ID="pnlFC" runat="server" Visible="false">
-												<td>Field Coordinator:</td>
+											<asp:Panel ID="pnlUtype" runat="server">
+												<td>User Type: </td>
 												<td>&nbsp;</td>
-												<td><asp:DropDownList ID="ddlFC" runat="server" AutoPostBack="True"></asp:DropDownList></td>
+												<td>
+                                                <asp:DropDownList ID="ddlUserType" runat="server" AutoPostBack="True">
+                                                    <asp:ListItem></asp:ListItem>
+                                                    <asp:ListItem Value="1" Text="Field Coordinator" />
+                                                    <asp:ListItem Value="2" Text="Promodiser" />
+                                                </asp:DropDownList>
+                                                </td>
 												<td>&nbsp;</td>
 											</asp:Panel>
 										</tr>
@@ -144,10 +150,17 @@
 												<asp:DropDownList ID="ddlDate" runat="server" AutoPostBack="True" Visible="False"></asp:DropDownList>
 											</td>
 											<td>&nbsp;</td>
-											<td width="150">Promodiser:</td>
+											<td width="150"><asp:Label ID="FCPromoLabel" runat="server" Text="" /></td>
 											<td width="20">&nbsp;</td>
 											<td width="200">
-												<asp:DropDownList ID="ddlEmp" runat="server" AutoPostBack="True"></asp:DropDownList>
+												<asp:DropDownList ID="ddlEmp" runat="server" Visible="false" AutoPostBack="True"></asp:DropDownList>
+<%--                                                <asp:Panel ID="pnlFC" runat="server" Visible="false">
+												    <td>Field Coordinator:</td>
+												    <td>&nbsp;</td>
+												    <td>--%>
+                                                    <asp:DropDownList ID="ddlFC" runat="server" Visible="false" AutoPostBack="True"></asp:DropDownList>
+		<%--										</td><td>&nbsp;</td>--%>
+											<%--</asp:Panel>--%>
 											</td>
 											<td width="20">&nbsp;</td>
 										</tr>
@@ -776,7 +789,8 @@
     </tr>
    
     <tr>
-<td align="left" valign="top">Product:</td>
+<td align="left" valign="top">Product:
+        </td>
 <td align="left">
     <asp:DropDownList ID="ddlSProd" runat="server" AutoPostBack="True" 
         Enabled="False" Width="450px">

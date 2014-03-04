@@ -768,13 +768,15 @@
 		<div style="VERTICAL-ALIGN: top">PRODUCT</div>
 		<div style="VERTICAL-ALIGN: top">&nbsp;</div>
 		<div style="VERTICAL-ALIGN: bottom">
-			<asp:DropDownList ID="ddlACProduct" runat="server" AutoPostBack="True">
+			<asp:DropDownList ID="ddlACProduct" runat="server" AutoPostBack="True" OnSelectedIndexChanged="ddlACProdProduct_SelectedIndexChanged">
 				<asp:ListItem></asp:ListItem>
 				<asp:ListItem Value="1">WRAC</asp:ListItem>
 				<asp:ListItem Value="2">Split</asp:ListItem>
 			</asp:DropDownList>
 	</HeaderTemplate>
-	<ItemTemplate></ItemTemplate>
+	<ItemTemplate>
+        <asp:Label id="cProductLabel" runat="server" Text='<%# Bind("cProductID") %>'></asp:Label> 
+    </ItemTemplate>
 </asp:TemplateField>
 
 <asp:TemplateField HeaderText="Brand" SortExpression="cBrand">

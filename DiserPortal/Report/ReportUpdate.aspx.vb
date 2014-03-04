@@ -208,7 +208,7 @@
 			Dim qSales, qCompete, qStocks, qInventory, qTM As String
 
 			If retVal(0) = "1" Then		'super admin
-				pnlFC.Visible = True
+                'pnlFC.Visible = True
 				pnlSFC.Visible = True
 				pnlIFC.Visible = True
 				pnlTFC.Visible = True
@@ -977,35 +977,44 @@
 
     Protected Sub ddlEmp_SelectedIndexChanged(ByVal sender As Object, ByVal e As EventArgs) Handles ddlEmp.SelectedIndexChanged
         If ddlFilter.SelectedValue.Trim = "" Then
-            qry = "SELECT * FROM vw_SalesReport WHERE userID = " & ddlEmp.SelectedValue.Trim _
-                                 & " ORDER BY subID DESC"
+            If ddlEmp.SelectedValue.Trim = "" Then
+                qry = "SELECT * FROM vw_SalesReport ORDER BY subID DESC"
+            Else
+                qry = "SELECT * FROM vw_SalesReport WHERE userID = " & ddlEmp.SelectedValue.Trim _
+                                     & " ORDER BY subID DESC"
+            End If
+
         Else
             searchSales()
             Exit Sub
         End If
 
-        grdSales.DataSourceID = ""
-        grdSales.DataBind()
-        sqlDS_Sales.SelectCommand = qry
-        grdSales.DataSourceID = "sqlDS_Sales"
-        grdSales.DataBind()
-	End Sub
+            grdSales.DataSourceID = ""
+            grdSales.DataBind()
+            sqlDS_Sales.SelectCommand = qry
+            grdSales.DataSourceID = "sqlDS_Sales"
+            grdSales.DataBind()
+    End Sub
 
 	Protected Sub ddlFC_SelectedIndexChanged(ByVal sender As Object, ByVal e As EventArgs) Handles ddlFC.SelectedIndexChanged
-		If ddlFilter.SelectedValue.Trim = "" Then
-			qry = "SELECT * FROM tbl_User u, vw_SalesReport s WHERE u.empID=s.userID AND u.fcID=" & ddlFC.SelectedValue.Trim _
-								 & " ORDER BY subID DESC"
-		Else
-			searchSales()
-			Exit Sub
-		End If
+        If ddlFilter.SelectedValue.Trim = "" Then
+            If ddlFC.SelectedValue.Trim = "" Then
+                qry = "SELECT * FROM tbl_User u, vw_SalesReport s WHERE u.empID=s.userID ORDER BY subID DESC"
+            Else
+                qry = "SELECT * FROM tbl_User u, vw_SalesReport s WHERE u.empID=s.userID AND u.fcID=" & ddlFC.SelectedValue.Trim _
+                  & " ORDER BY subID DESC"
+            End If
+        Else
+            searchSales()
+            Exit Sub
+        End If
 
-		grdSales.DataSourceID = ""
-		grdSales.DataBind()
-		sqlDS_Sales.SelectCommand = qry
-		grdSales.DataSourceID = "sqlDS_Sales"
-		grdSales.DataBind()
-	End Sub
+            grdSales.DataSourceID = ""
+            grdSales.DataBind()
+            sqlDS_Sales.SelectCommand = qry
+            grdSales.DataSourceID = "sqlDS_Sales"
+            grdSales.DataBind()
+    End Sub
 
     Protected Sub lnkCompete_Click(ByVal sender As Object, ByVal e As EventArgs) Handles lnkCompete.Click
         checkSession()
@@ -3197,4 +3206,44 @@
 			'End If
 		End If
 	End Sub
+
+    Protected Sub ddlUserType_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ddlUserType.SelectedIndexChanged
+        If Me.ddlUserType.SelectedValue = "1" Then
+            Me.FCPromoLabel.Text = "Field Coordinator:"
+            Me.FCPromoLabel.Visible = True
+            Me.ddlFC.Visible = True
+
+            'If Me.ddlEmp.Visible = True Then
+            '    Me.ddlEmp.SelectedIndex = 0
+            '    Me.ddlEmp.Visible = False
+            'End If
+            ResetDropdownList(Me.ddlEmp)
+        ElseIf Me.ddlUserType.SelectedValue = "2" Then
+            Me.FCPromoLabel.Text = "Promodiser:"
+            Me.FCPromoLabel.Visible = True
+            Me.ddlEmp.Visible = True
+
+            'If Me.ddlFC.Visible = True Then
+            '    Me.ddlFC.SelectedIndex = 0
+            '    Me.ddlFC.Visible = False
+            'End If
+            ResetDropdownList(Me.ddlFC)
+        Else
+            Me.FCPromoLabel.Text = String.Empty
+            Me.ddlFC.SelectedIndex = 0
+            ddlFC_SelectedIndexChanged(Me.ddlFC, EventArgs.Empty)
+            Me.ddlFC.Visible = False
+            Me.ddlEmp.SelectedIndex = 0
+            ddlEmp_SelectedIndexChanged(Me.ddlEmp, EventArgs.Empty)
+            Me.ddlEmp.Visible = False
+            Me.FCPromoLabel.Visible = False
+        End If
+    End Sub
+
+    Sub ResetDropdownList(ddl As DropDownList)
+        If ddl.Visible = True Then
+            ddl.SelectedIndex = 0
+            ddl.Visible = False
+        End If
+    End Sub
 End Class
