@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+
+}
+
+
+#main_wrap {
+width:1200px;
+height:auto;
+margin:auto;
+}
+
+#tab_wrap {
+width:1200px;
+height:46px;
+margin-left:-80px;
+padding-top:5px;
+vertical-align:bottom;
+/*margin-left:-40px;*/
+}
+
+.tabprop li .tabprop-Selected 
+{
+list-style-type:none;
+margin-top:-12px;
+width:174px;
+height:46px;
+background:url(../images/bg_tab1.png) center top no-repeat;
+line-height:12px;
+float:left;
+vertical-align:bottom;
+float:left;
+padding-top:12px;
+cursor:default;
+color:Black;
+}
+
+.tabprop li {
+list-style-type:none;
+width:174px;
+height:46px;
+background:url(../images/bg_tab.png) center top no-repeat;
+float:left;
+text-align:center;
+line-height:12px;
+}
+
+
+.tabprop a {
+text-decoration:none;
+color:#333333;
+}
+
+.tabprop a:hover 
+{
+	list-style-type:none;
+margin-top:-12px;
+width:174px;
+height:46px;
+background:url(../images/bg_tab1.png) center top no-repeat;
+line-height:12px;
+float:left;
+vertical-align:bottom;
+padding-top:12px;
+color:Black;
+/*color:#FF6600;*/
+}
+
+#cont_wrap {
+width:1200px;
+min-height:250px;
+border:#333333 solid thin;
+overflow-x:scroll;
+}
+
+//

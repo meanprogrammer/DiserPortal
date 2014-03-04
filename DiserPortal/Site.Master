@@ -1,0 +1,94 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Site.master.vb" Inherits="DiserPortal.Site" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Styles/styleTab.css" rel="stylesheet" type="text/css" />
+    <link href="~/Styles/siteGrid.css" rel="stylesheet" type="text/css" />
+    
+    <%--<script type="text/javascript">
+        function IntegerOnly(myfield, e, dec) {
+            var key;
+            var keychar;
+
+            if (window.event)
+                key = window.event.keyCode;
+            else if (e)
+                key = e.which;
+            else
+                return true;
+            keychar = String.fromCharCode(key);
+
+            // control keys
+            if ((key == null) || (key == 0) || (key == 8) ||
+            (key == 9) || (key == 13) || (key == 27))
+                return true;
+
+            // accepts #
+            else if ((("0123456789").indexOf(keychar) > -1))
+                return true;
+
+            // decimal point jump
+            else if (dec && (keychar == ".")) {
+                myfield.form.elements[dec].focus();
+                return false;
+            }
+            else
+                return false;
+        }
+    </script>--%>
+
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+    <asp:ScriptManager ID="ScriptManager2" runat="server" ScriptMode="Release" AsyncPostBackTimeOut="3600"/>
+
+    <div class="page">
+        <div class="header">
+            <div class="clear hideSkiplink">
+            <div class="logoutDisplay" >
+                <asp:Label ID="lblName" runat="server" Font-Bold="True" Font-Size="15px" 
+                    ForeColor="#FFFF66"></asp:Label>   | 
+                <a href="~/Support/Support.aspx" ID="A3" runat="server">Support</a>   |   
+                <a href="~/Admin/Profile.aspx" ID="A1" runat="server">Profile</a>   |   
+                <a href="~/Default.aspx" ID="A2" runat="server">Logout</a><br /><br />
+            </div>
+            </div>
+            <%--<div class="loginDisplay">
+                <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
+                    <AnonymousTemplate>
+                        [ <a href="~/Account/Login.aspx" ID="HeadLoginStatus" runat="server">Log In!</a> ]
+                    </AnonymousTemplate>
+                    <LoggedInTemplate>
+                        Welcome <span class="bold"><asp:LoginName ID="HeadLoginName" runat="server" /></span>!
+                        [ <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Log Out" LogoutPageUrl="~/"/> ]
+                    </LoggedInTemplate>
+                </asp:LoginView>
+            </div>--%>
+            <div class="clear hideSkiplink">
+                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/HomePage.aspx" Text="Home"/>
+                        <asp:MenuItem NavigateUrl="~/Sales/Sales.aspx" Text="Sales Form"/>
+                        <asp:MenuItem NavigateUrl="~/Report/Report.aspx" Text="Report"/>
+                        <asp:MenuItem NavigateUrl="~/Admin/Admin.aspx" Text="Admin"/>
+                        <asp:MenuItem NavigateUrl="~/Community/ComingSoon.aspx" Text="Community"/>
+                    </Items>
+                </asp:Menu>
+            </div>
+        </div>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+        </div>
+        <div class="clear"></div>
+        <div class="footer"></div>
+        <div class="clear"></div>
+    </div>
+   
+    </form>
+</body>
+</html>

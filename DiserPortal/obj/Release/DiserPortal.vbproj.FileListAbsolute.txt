@@ -1,0 +1,10 @@
+C:\Users\Jace\Documents\01 jace\DiserPortal\DiserPortal\bin\DiserPortal.dll
+C:\Users\Jace\Documents\01 jace\DiserPortal\DiserPortal\bin\DiserPortal.pdb
+C:\Users\Jace\Documents\01 jace\DiserPortal\DiserPortal\bin\DiserPortal.xml
+C:\Users\Jace\Documents\01 jace\DiserPortal\DiserPortal\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Jace\Documents\01 jace\DiserPortal\DiserPortal\obj\Release\DiserPortal.Resources.resources
+C:\Users\Jace\Documents\01 jace\DiserPortal\DiserPortal\obj\Release\GenerateResource.read.1.tlog
+C:\Users\Jace\Documents\01 jace\DiserPortal\DiserPortal\obj\Release\GenerateResource.write.1.tlog
+C:\Users\Jace\Documents\01 jace\DiserPortal\DiserPortal\obj\Release\DiserPortal.dll
+C:\Users\Jace\Documents\01 jace\DiserPortal\DiserPortal\obj\Release\DiserPortal.xml
+C:\Users\Jace\Documents\01 jace\DiserPortal\DiserPortal\obj\Release\DiserPortal.pdb

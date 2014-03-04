@@ -1,0 +1,761 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{C46590F6-1F44-4C64-ADD4-22EB12C82C18}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>DiserPortal</RootNamespace>
+    <AssemblyName>DiserPortal</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>DiserPortal.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>DiserPortal.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="Account\ChangePassword.aspx" />
+    <Content Include="Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="Admin\Gotcha.aspx" />
+    <Content Include="Admin\SuperAdmin.aspx" />
+    <Content Include="Admin\AFileUpload.aspx" />
+    <Content Include="Admin\DataBuildUp.aspx" />
+    <Content Include="Admin\Profile.aspx" />
+    <Content Include="Admin\Admin.aspx" />
+    <Content Include="Community\ComingSoon.aspx" />
+    <Content Include="Community\Announcement.aspx" />
+    <Content Include="Community\Community.aspx" />
+    <Content Include="Admin\PopulateWeek.aspx" />
+    <Content Include="bon_mailtest.aspx" />
+    <Content Include="Admin\PopulateDay.aspx" />
+    <Content Include="Feedback.aspx" />
+    <Content Include="RefreshSession.aspx" />
+    <Content Include="Forgot_Password.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="images\home\comm.png" />
+    <Content Include="images\home\commHover.png" />
+    <Content Include="images\home\help.png" />
+    <Content Include="images\home\helpHover.png" />
+    <Content Include="images\home\main.png" />
+    <Content Include="images\home\new v2\def\images\1.png" />
+    <Content Include="images\home\new v2\def\images\2.png" />
+    <Content Include="images\home\new\default\comm\images\1.png" />
+    <Content Include="images\home\new\default\comm\images\11.png" />
+    <Content Include="images\home\new\default\comm\images\13.png" />
+    <Content Include="images\home\new\default\comm\images\15.png" />
+    <Content Include="images\home\new\default\comm\images\18.png" />
+    <Content Include="images\home\new\default\comm\images\2.png" />
+    <Content Include="images\home\new\default\comm\images\20.png" />
+    <Content Include="images\home\new\default\comm\images\21.png" />
+    <Content Include="images\home\new\default\comm\images\3.png" />
+    <Content Include="images\home\new\default\comm\images\5.png" />
+    <Content Include="images\home\new\default\comm\images\7.png" />
+    <Content Include="images\home\new\default\comm\images\9.png" />
+    <Content Include="images\home\new\default\comm\images\commHover.png" />
+    <Content Include="images\home\new\default\comm\images\commLink1.png" />
+    <Content Include="images\home\new\default\comm\images\commLink2.png" />
+    <Content Include="images\home\new\default\comm\images\help.png" />
+    <Content Include="images\home\new\default\comm\images\helpLink.png" />
+    <Content Include="images\home\new\default\comm\images\repLink.png" />
+    <Content Include="images\home\new\default\comm\images\report.png" />
+    <Content Include="images\home\new\default\comm\images\sales.png" />
+    <Content Include="images\home\new\default\comm\images\salesLink.png" />
+    <Content Include="images\home\new\default\help\images\1.png" />
+    <Content Include="images\home\new\default\help\images\11.png" />
+    <Content Include="images\home\new\default\help\images\13.png" />
+    <Content Include="images\home\new\default\help\images\15.png" />
+    <Content Include="images\home\new\default\help\images\18.png" />
+    <Content Include="images\home\new\default\help\images\2.png" />
+    <Content Include="images\home\new\default\help\images\20.png" />
+    <Content Include="images\home\new\default\help\images\21.png" />
+    <Content Include="images\home\new\default\help\images\3.png" />
+    <Content Include="images\home\new\default\help\images\5.png" />
+    <Content Include="images\home\new\default\help\images\7.png" />
+    <Content Include="images\home\new\default\help\images\9.png" />
+    <Content Include="images\home\new\default\help\images\comm.png" />
+    <Content Include="images\home\new\default\help\images\commLink1.png" />
+    <Content Include="images\home\new\default\help\images\commLink2.png" />
+    <Content Include="images\home\new\default\help\images\helpHover.png" />
+    <Content Include="images\home\new\default\help\images\helpLink.png" />
+    <Content Include="images\home\new\default\help\images\repLink.png" />
+    <Content Include="images\home\new\default\help\images\report.png" />
+    <Content Include="images\home\new\default\help\images\sales.png" />
+    <Content Include="images\home\new\default\help\images\salesLink.png" />
+    <Content Include="images\home\new\default\home.html" />
+    <Content Include="images\home\new\default\images\1.png" />
+    <Content Include="images\home\new\default\images\11.png" />
+    <Content Include="images\home\new\default\images\13.png" />
+    <Content Include="images\home\new\default\images\15.png" />
+    <Content Include="images\home\new\default\images\18.png" />
+    <Content Include="images\home\new\default\images\2.png" />
+    <Content Include="images\home\new\default\images\20.png" />
+    <Content Include="images\home\new\default\images\21.png" />
+    <Content Include="images\home\new\default\images\3.png" />
+    <Content Include="images\home\new\default\images\5.png" />
+    <Content Include="images\home\new\default\images\7.png" />
+    <Content Include="images\home\new\default\images\9.png" />
+    <Content Include="images\home\new\default\images\comm.png" />
+    <Content Include="images\home\new\default\images\commLink1.png" />
+    <Content Include="images\home\new\default\images\commLink2.png" />
+    <Content Include="images\home\new\default\images\help.png" />
+    <Content Include="images\home\new\default\images\helpLink.png" />
+    <Content Include="images\home\new\default\images\repLink.png" />
+    <Content Include="images\home\new\default\images\report.png" />
+    <Content Include="images\home\new\default\images\sales.png" />
+    <Content Include="images\home\new\default\images\salesLink.png" />
+    <Content Include="images\home\new\default\images\spacer.gif" />
+    <Content Include="images\home\new\default\report\images\1.png" />
+    <Content Include="images\home\new\default\report\images\11.png" />
+    <Content Include="images\home\new\default\report\images\13.png" />
+    <Content Include="images\home\new\default\report\images\15.png" />
+    <Content Include="images\home\new\default\report\images\18.png" />
+    <Content Include="images\home\new\default\report\images\2.png" />
+    <Content Include="images\home\new\default\report\images\20.png" />
+    <Content Include="images\home\new\default\report\images\21.png" />
+    <Content Include="images\home\new\default\report\images\3.png" />
+    <Content Include="images\home\new\default\report\images\5.png" />
+    <Content Include="images\home\new\default\report\images\7.png" />
+    <Content Include="images\home\new\default\report\images\9.png" />
+    <Content Include="images\home\new\default\report\images\comm.png" />
+    <Content Include="images\home\new\default\report\images\commLink1.png" />
+    <Content Include="images\home\new\default\report\images\commLink2.png" />
+    <Content Include="images\home\new\default\report\images\help.png" />
+    <Content Include="images\home\new\default\report\images\helpLink.png" />
+    <Content Include="images\home\new\default\report\images\repLink.png" />
+    <Content Include="images\home\new\default\report\images\report.png" />
+    <Content Include="images\home\new\default\report\images\sales.png" />
+    <Content Include="images\home\new\default\report\images\salesLink.png" />
+    <Content Include="images\home\new\default\sales\images\1.png" />
+    <Content Include="images\home\new\default\sales\images\11.png" />
+    <Content Include="images\home\new\default\sales\images\13.png" />
+    <Content Include="images\home\new\default\sales\images\15.png" />
+    <Content Include="images\home\new\default\sales\images\18.png" />
+    <Content Include="images\home\new\default\sales\images\2.png" />
+    <Content Include="images\home\new\default\sales\images\20.png" />
+    <Content Include="images\home\new\default\sales\images\21.png" />
+    <Content Include="images\home\new\default\sales\images\3.png" />
+    <Content Include="images\home\new\default\sales\images\5.png" />
+    <Content Include="images\home\new\default\sales\images\7.png" />
+    <Content Include="images\home\new\default\sales\images\9.png" />
+    <Content Include="images\home\new\default\sales\images\comm.png" />
+    <Content Include="images\home\new\default\sales\images\commLink1.png" />
+    <Content Include="images\home\new\default\sales\images\commLink2.png" />
+    <Content Include="images\home\new\default\sales\images\help.png" />
+    <Content Include="images\home\new\default\sales\images\helpLink.png" />
+    <Content Include="images\home\new\default\sales\images\repLink.png" />
+    <Content Include="images\home\new\default\sales\images\report.png" />
+    <Content Include="images\home\new\default\sales\images\salesHover.png" />
+    <Content Include="images\home\new\default\sales\images\salesLink.png" />
+    <Content Include="images\home\old\home.html" />
+    <Content Include="images\home\old\images\1.png" />
+    <Content Include="images\home\old\images\14.png" />
+    <Content Include="images\home\old\images\2.png" />
+    <Content Include="images\home\old\images\3.png" />
+    <Content Include="images\home\old\images\5.png" />
+    <Content Include="images\home\old\images\7.png" />
+    <Content Include="images\home\old\images\comm1.png" />
+    <Content Include="images\home\old\images\comm2.png" />
+    <Content Include="images\home\old\images\commLink.png" />
+    <Content Include="images\home\old\images\help.png" />
+    <Content Include="images\home\old\images\helpLink.png" />
+    <Content Include="images\home\old\images\home_03.png" />
+    <Content Include="images\home\old\images\home_05.png" />
+    <Content Include="images\home\old\images\home_07.png" />
+    <Content Include="images\home\old\images\home_11.png" />
+    <Content Include="images\home\old\images\home_12.png" />
+    <Content Include="images\home\old\images\home_13.png" />
+    <Content Include="images\home\old\images\repLink.png" />
+    <Content Include="images\home\old\images\report-11.png" />
+    <Content Include="images\home\old\images\report.png" />
+    <Content Include="images\home\old\images\sales.png" />
+    <Content Include="images\home\old\images\salesLink.png" />
+    <Content Include="images\home\old\images\spacer.gif" />
+    <Content Include="images\home\report.png" />
+    <Content Include="images\home\reportHover.png" />
+    <Content Include="images\home\sales.png" />
+    <Content Include="images\home\salesHover.png" />
+    <Content Include="images\home\top.png" />
+    <Content Include="images\icons\modify.png" />
+    <Content Include="Report\ReportUpdate.aspx" />
+    <Content Include="Sales\DownloadedFile.aspx" />
+    <Content Include="Support\Support.aspx" />
+    <Content Include="HomePage.aspx" />
+    <Content Include="images\01-main-ui-default.jpg" />
+    <Content Include="images\01-main-ui-default.png" />
+    <Content Include="images\announce.gif" />
+    <Content Include="images\announce.jpg" />
+    <Content Include="images\announcePics\announce.jpg" />
+    <Content Include="images\back.jpg" />
+    <Content Include="images\back1.jpg" />
+    <Content Include="images\bg.jpg" />
+    <Content Include="images\bg.png" />
+    <Content Include="images\bg_tab.png" />
+    <Content Include="images\bg_tab1.png" />
+    <Content Include="images\body.jpg" />
+    <Content Include="images\divider.jpg" />
+    <Content Include="images\footer.jpg" />
+    <Content Include="images\header.jpg" />
+    <Content Include="images\homePage\1.png" />
+    <Content Include="images\homePage\11.png" />
+    <Content Include="images\homePage\13.png" />
+    <Content Include="images\homePage\15.png" />
+    <Content Include="images\homePage\18.png" />
+    <Content Include="images\homePage\2.png" />
+    <Content Include="images\homePage\20.png" />
+    <Content Include="images\homePage\21.png" />
+    <Content Include="images\homePage\3.png" />
+    <Content Include="images\homePage\5.png" />
+    <Content Include="images\homePage\7.png" />
+    <Content Include="images\homePage\9.png" />
+    <Content Include="images\homePage\comm.png" />
+    <Content Include="images\homePage\commHover.png" />
+    <Content Include="images\homePage\commLink1.png" />
+    <Content Include="images\homePage\commLink2.png" />
+    <Content Include="images\homePage\help.png" />
+    <Content Include="images\homePage\helpHover.png" />
+    <Content Include="images\homePage\helpLink.png" />
+    <Content Include="images\homePage\repLink.png" />
+    <Content Include="images\homePage\report.png" />
+    <Content Include="images\homePage\reportHover.png" />
+    <Content Include="images\homePage\sales.png" />
+    <Content Include="images\homePage\salesHover.png" />
+    <Content Include="images\homePage\salesLink.png" />
+    <Content Include="images\homePage\spacer.gif" />
+    <Content Include="images\icons\add.gif" />
+    <Content Include="images\icons\add.jpg" />
+    <Content Include="images\icons\add1.gif" />
+    <Content Include="images\icons\add1.jpg" />
+    <Content Include="images\icons\attach.png" />
+    <Content Include="images\icons\blueIC.png" />
+    <Content Include="images\icons\calendar.png" />
+    <Content Include="images\icons\cancel.gif" />
+    <Content Include="images\icons\cancel.jpg" />
+    <Content Include="images\icons\cancel1.gif" />
+    <Content Include="images\icons\cancel1.jpg" />
+    <Content Include="images\icons\delete.jpg" />
+    <Content Include="images\icons\delete.png" />
+    <Content Include="images\icons\delete1.jpg" />
+    <Content Include="images\icons\delete1.png" />
+    <Content Include="images\icons\email_go.png" />
+    <Content Include="images\icons\exclamation.png" />
+    <Content Include="images\icons\exit.jpg" />
+    <Content Include="images\icons\exit.png" />
+    <Content Include="images\icons\exit1.jpg" />
+    <Content Include="images\icons\first.gif" />
+    <Content Include="images\icons\first1.gif" />
+    <Content Include="images\icons\greenIC.png" />
+    <Content Include="images\icons\home.png" />
+    <Content Include="images\icons\last.gif" />
+    <Content Include="images\icons\last1.gif" />
+    <Content Include="images\icons\loading.gif" />
+    <Content Include="images\icons\lock.png" />
+    <Content Include="images\icons\login.jpg" />
+    <Content Include="images\icons\logo.gif" />
+    <Content Include="images\icons\maximize.gif" />
+    <Content Include="images\icons\minimize.gif" />
+    <Content Include="images\icons\modify.gif" />
+    <Content Include="images\icons\modify.jpg" />
+    <Content Include="images\icons\modify1.gif" />
+    <Content Include="images\icons\modify1.jpg" />
+    <Content Include="images\icons\next.gif" />
+    <Content Include="images\icons\next1.gif" />
+    <Content Include="images\icons\no.png" />
+    <Content Include="images\icons\note_go.png" />
+    <Content Include="images\icons\pinkIC.png" />
+    <Content Include="images\icons\prev.gif" />
+    <Content Include="images\icons\prev1.gif" />
+    <Content Include="images\icons\refresh.ico" />
+    <Content Include="images\icons\refresh.png" />
+    <Content Include="images\icons\rfvIcon.png" />
+    <Content Include="images\icons\save.gif" />
+    <Content Include="images\icons\save.jpg" />
+    <Content Include="images\icons\save1.gif" />
+    <Content Include="images\icons\save1.jpg" />
+    <Content Include="images\icons\search.gif" />
+    <Content Include="images\icons\search.jpg" />
+    <Content Include="images\icons\search1.gif" />
+    <Content Include="images\icons\search1.jpg" />
+    <Content Include="images\icons\select.png" />
+    <Content Include="images\icons\submit.jpg" />
+    <Content Include="images\icons\unlock.ico" />
+    <Content Include="images\icons\unlock.png" />
+    <Content Include="images\icons\unlock1.png" />
+    <Content Include="images\icons\upload.png" />
+    <Content Include="images\icons\upload1.png" />
+    <Content Include="images\icons\view.png" />
+    <Content Include="images\icons\view1.png" />
+    <Content Include="images\icons\yes.png" />
+    <Content Include="images\images\01-main-ui-default.jpg" />
+    <Content Include="images\images\1.jpg" />
+    <Content Include="images\images\10.jpg" />
+    <Content Include="images\images\2.jpg" />
+    <Content Include="images\images\3.jpg" />
+    <Content Include="images\images\4.jpg" />
+    <Content Include="images\images\5.jpg" />
+    <Content Include="images\images\6.jpg" />
+    <Content Include="images\images\7.jpg" />
+    <Content Include="images\images\8.jpg" />
+    <Content Include="images\images\9.jpg" />
+    <Content Include="images\images\header.jpg" />
+    <Content Include="images\images\menubar.jpg" />
+    <Content Include="images\images\menuExt.jpg" />
+    <Content Include="images\login_header.jpg" />
+    <Content Include="images\logo.jpg" />
+    <Content Include="images\main-ui-placeholder.png" />
+    <Content Include="images\menuExt.jpg" />
+    <Content Include="images\menuHover.jpg" />
+    <Content Include="images\perf.gif" />
+    <Content Include="images\perf.jpg" />
+    <Content Include="images\tab\empExtender.gif" />
+    <Content Include="images\tab\leftTab-Selected.jpg" />
+    <Content Include="images\tab\leftTab.gif" />
+    <Content Include="images\tab\leftTab.png" />
+    <Content Include="images\tab\rightCorner.gif" />
+    <Content Include="images\tab\rightTab.gif" />
+    <Content Include="images\tab\rightTab.png" />
+    <Content Include="images\tab\tab-selected.jpg" />
+    <Content Include="images\tab\tab.gif" />
+    <Content Include="images\tab\tab.png" />
+    <Content Include="images\tab\tabExtender.gif" />
+    <Content Include="images\tab\tabExtender.png" />
+    <Content Include="images\tab\tabExtender1.png" />
+    <Content Include="images\tab\tabFooter.gif" />
+    <Content Include="images\tab\tabFooter.png" />
+    <Content Include="images\tab\tabFooter1.png" />
+    <Content Include="menu_.swf" />
+    <Content Include="NewUser.aspx" />
+    <Content Include="Password_Retrieve.aspx" />
+    <Content Include="Report\Report.aspx" />
+    <Content Include="Sales\Sales.aspx" />
+    <Content Include="Sales\SalesReport.aspx" />
+    <Content Include="Sales\SalesUpload.aspx" />
+    <Content Include="SecurityQuestion.aspx" />
+    <Content Include="Styles\homePage.css" />
+    <Content Include="Styles\menuBar.css" />
+    <Content Include="Styles\MenuTab.css" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Global.asax" />
+    <Content Include="Styles\siteGrid.css" />
+    <Content Include="Styles\siteMaster.css" />
+    <Content Include="Styles\siteModal.css" />
+    <Content Include="Styles\siteObjects.css" />
+    <Content Include="Styles\siteStyle.css" />
+    <Content Include="Styles\styleTab.css" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.designer.vb">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="About.aspx.vb">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.designer.vb">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.vb">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.designer.vb">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.vb">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.vb">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.vb">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Gotcha.aspx.designer.vb">
+      <DependentUpon>Gotcha.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Gotcha.aspx.vb">
+      <DependentUpon>Gotcha.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SuperAdmin.aspx.designer.vb">
+      <DependentUpon>SuperAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SuperAdmin.aspx.vb">
+      <DependentUpon>SuperAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AFileUpload.aspx.designer.vb">
+      <DependentUpon>AFileUpload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AFileUpload.aspx.vb">
+      <DependentUpon>AFileUpload.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\DataBuildUp.aspx.designer.vb">
+      <DependentUpon>DataBuildUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\DataBuildUp.aspx.vb">
+      <DependentUpon>DataBuildUp.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Profile.aspx.designer.vb">
+      <DependentUpon>Profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Profile.aspx.vb">
+      <DependentUpon>Profile.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Admin.aspx.designer.vb">
+      <DependentUpon>Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Admin.aspx.vb">
+      <DependentUpon>Admin.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="clsConn.vb" />
+    <Compile Include="clsED.vb" />
+    <Compile Include="clsExcel.vb" />
+    <Compile Include="clsLoadAttachment.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="clsMailer.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="clsObject.vb" />
+    <Compile Include="Community\ComingSoon.aspx.designer.vb">
+      <DependentUpon>ComingSoon.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Community\ComingSoon.aspx.vb">
+      <DependentUpon>ComingSoon.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Community\Announcement.aspx.designer.vb">
+      <DependentUpon>Announcement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Community\Announcement.aspx.vb">
+      <DependentUpon>Announcement.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Community\Community.aspx.designer.vb">
+      <DependentUpon>Community.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Community\Community.aspx.vb">
+      <DependentUpon>Community.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\PopulateWeek.aspx.designer.vb">
+      <DependentUpon>PopulateWeek.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\PopulateWeek.aspx.vb">
+      <DependentUpon>PopulateWeek.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="bon_mailtest.aspx.designer.vb">
+      <DependentUpon>bon_mailtest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="bon_mailtest.aspx.vb">
+      <DependentUpon>bon_mailtest.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\PopulateDay.aspx.designer.vb">
+      <DependentUpon>PopulateDay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\PopulateDay.aspx.vb">
+      <DependentUpon>PopulateDay.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Site_blank.Master.designer.vb">
+      <DependentUpon>Site_blank.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site_blank.Master.vb">
+      <DependentUpon>Site_blank.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Feedback.aspx.designer.vb">
+      <DependentUpon>Feedback.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Feedback.aspx.vb">
+      <DependentUpon>Feedback.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="RefreshSession.aspx.designer.vb">
+      <DependentUpon>RefreshSession.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RefreshSession.aspx.vb">
+      <DependentUpon>RefreshSession.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Forgot_Password.aspx.designer.vb">
+      <DependentUpon>Forgot_Password.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forgot_Password.aspx.vb">
+      <DependentUpon>Forgot_Password.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Report\ReportUpdate.aspx.designer.vb">
+      <DependentUpon>ReportUpdate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\ReportUpdate.aspx.vb">
+      <DependentUpon>ReportUpdate.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Sales\DownloadedFile.aspx.designer.vb">
+      <DependentUpon>DownloadedFile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sales\DownloadedFile.aspx.vb">
+      <DependentUpon>DownloadedFile.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Support\Support.aspx.designer.vb">
+      <DependentUpon>Support.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Support\Support.aspx.vb">
+      <DependentUpon>Support.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="HomePage.aspx.designer.vb">
+      <DependentUpon>HomePage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HomePage.aspx.vb">
+      <DependentUpon>HomePage.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="NewUser.aspx.designer.vb">
+      <DependentUpon>NewUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NewUser.aspx.vb">
+      <DependentUpon>NewUser.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Password_Retrieve.aspx.designer.vb">
+      <DependentUpon>Password_Retrieve.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Password_Retrieve.aspx.vb">
+      <DependentUpon>Password_Retrieve.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Report\Report.aspx.designer.vb">
+      <DependentUpon>Report.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Report.aspx.vb">
+      <DependentUpon>Report.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Sales\Sales.aspx.designer.vb">
+      <DependentUpon>Sales.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sales\Sales.aspx.vb">
+      <DependentUpon>Sales.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Sales\SalesReport.aspx.designer.vb">
+      <DependentUpon>SalesReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sales\SalesReport.aspx.vb">
+      <DependentUpon>SalesReport.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Sales\SalesUpload.aspx.designer.vb">
+      <DependentUpon>SalesUpload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sales\SalesUpload.aspx.vb">
+      <DependentUpon>SalesUpload.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="SecurityQuestion.aspx.designer.vb">
+      <DependentUpon>SecurityQuestion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SecurityQuestion.aspx.vb">
+      <DependentUpon>SecurityQuestion.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.vb">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.vb">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Web.config" />
+    <Content Include="Site_blank.Master" />
+    <None Include="images\announce.psd" />
+    <None Include="images\back.psd" />
+    <None Include="images\bg.psd" />
+    <None Include="images\buttons.psd" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="ExcelFiles\" />
+    <Folder Include="FAQ\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>52993</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

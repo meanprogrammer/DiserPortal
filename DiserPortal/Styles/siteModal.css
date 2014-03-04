@@ -1,0 +1,172 @@
+﻿#overlay 
+{ 
+    visibility: hidden; 
+    position:  fixed; 
+    left: 0px; 
+    top: 0px; 
+    width:100%; 
+    height:100%; 
+    text-align:center; 
+    z-index: 1250px; 
+    background-image:url(../images/modal.png);
+    background-repeat:repeat;
+}
+
+#overlay div 
+{ 
+    width:300px; 
+    margin: 200px auto; 
+    background-color:whitesmoke;
+    margin-right:auto;
+    border:1px solid #000; 
+    padding:15px; 
+    text-align:center;
+    cursor:default;
+}
+
+a.deleteBtn
+{
+	display:block;
+	background-image:url(../images/icons/delete.png);
+	background-repeat:no-repeat;
+	height:20px;
+	width:20px;
+}
+a.deleteBtn1
+{
+	display:block;
+	background-image:url(../images/icons/delete1.png);
+	background-repeat:no-repeat;
+	height:20px;
+	width:20px;
+}
+a.btns
+{
+	line-height:26px; 
+	width:160px; 
+	padding:10px 8px 0;
+}
+a.btn 
+{
+	float:right; 
+	margin-left:4px; 
+	width:70px; 
+	height:26px; 
+	color:#666; 
+	font-weight:bold; 
+	text-align:center; 
+	vertical-align:middle;
+	background:url(../images/modalbox/button.png) repeat-x; 
+	border:1px solid #bbb; 
+}
+	 
+	 
+.msgBar	
+{
+	margin-left:auto;
+	margin-right:auto;
+	width:655px;
+	font-family:Candara;
+	font-size:12px;
+	color:lemonchiffon;
+	font-weight:bolder;
+	display:block;
+	height:100%;	/*40px*/
+	background-image:url(../images/bg.png);   /*msgBar3*/
+	background-repeat:repeat;  /*no-repeat*/
+	padding:15px;
+	border:ridge 1px whitesmoke;
+}
+
+.tblLogs
+{
+	border: solid, 2px, grey;
+	background-color: #404040;
+	color: gainsboro;
+	width:750px;
+	font-family:Candara, Tahoma, Arial;
+	font-size: 13px;	
+	padding:5px;
+}
+.logHeader
+{
+	background:url(../images/bg.png) repeat;
+	border-bottom: solid 2px whitesmoke;
+	font-family:Candara, Tahoma, Arial;
+	font-size:17px;
+	font-weight:bolder;
+	color:White;
+	height:25px;
+}
+.logCube
+{
+	font-size:13px;
+	text-align:left;
+	padding-left:15px;
+	border:solid 1px gainsboro;
+	width:187px;
+}
+.logSpace
+{
+	height: 15px; 
+}
+.logDetails
+{
+	font-size:13px;
+	text-align:left;
+	padding-left:15px;
+	border:solid 1px gainsboro;
+	color:lightyellow;
+	font-weight:bolder;
+	width:187px;
+}
+.logFooter
+{
+	background:url(../images/bg.png) repeat;
+	height:17px;
+}
+
+receiptLeft
+{
+	text-align:right;
+	margin-left:350px;
+	width:850px;
+}
+receiptRight
+{
+	width:100px;
+}
+.txtrRight
+{
+	text-align:right;
+	padding-right:50px;
+	vertical-align:middle;
+	border:0;
+	margin-left:330px;
+	width:200px;
+	direction:rtl;
+}
+.txtrRLine
+{
+	text-align:right;
+	padding-right:10px;
+	vertical-align:middle;
+	border-left:0;
+	border-right:0;
+	border-top:0;
+	border-bottom:solid 2px #404040;
+	margin-left:330px;
+	width:200px;
+}
+.txtrRDouble
+{
+	text-align:right;
+	padding-right:10px;
+	vertical-align:middle;
+	border-left:0;
+	border-right:0;
+	border-top:0;
+	border-bottom:double 6px #404040;
+	margin-left:330px;
+	width:200px;
+}

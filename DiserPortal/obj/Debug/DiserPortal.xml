@@ -1,0 +1,6932 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DiserPortal
+</name>
+</assembly>
+<members>
+<member name="F:DiserPortal.Register.RegisterUser">
+	<summary>
+RegisterUser control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Register.RegisterUserWizardStep">
+	<summary>
+RegisterUserWizardStep control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ChangePassword.ChangeUserPassword">
+	<summary>
+ChangeUserPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Profile.updSearchApp">
+	<summary>
+updSearchApp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Profile.txtName">
+	<summary>
+txtName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Profile.txtStore">
+	<summary>
+txtStore control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Profile.txtFC">
+	<summary>
+txtFC control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Profile.txtAdd">
+	<summary>
+txtAdd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Profile.txtContact">
+	<summary>
+txtContact control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Profile.txtUname">
+	<summary>
+txtUname control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Profile.imbMPwd">
+	<summary>
+imbMPwd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Profile.imbCPwd">
+	<summary>
+imbCPwd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Profile.txtPwd">
+	<summary>
+txtPwd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Profile.lblPwd">
+	<summary>
+lblPwd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Profile.txtCPwd">
+	<summary>
+txtCPwd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Profile.txtAType">
+	<summary>
+txtAType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Profile.ddlQuestion">
+	<summary>
+ddlQuestion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Profile.txtQuestion">
+	<summary>
+txtQuestion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Profile.imbMAns">
+	<summary>
+imbMAns control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Profile.imbCAns">
+	<summary>
+imbCAns control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Profile.lblAnswer">
+	<summary>
+lblAnswer control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Profile.txtAnswer">
+	<summary>
+txtAnswer control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Profile.txtUStatus">
+	<summary>
+txtUStatus control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Profile.txtLCount">
+	<summary>
+txtLCount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Profile.lbleMsg">
+	<summary>
+lbleMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Site.HeadContent">
+	<summary>
+HeadContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Site.ScriptManager2">
+	<summary>
+ScriptManager2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Site.lblName">
+	<summary>
+lblName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Site.A3">
+	<summary>
+A3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Site.A1">
+	<summary>
+A1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Site.A2">
+	<summary>
+A2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Site.NavigationMenu">
+	<summary>
+NavigationMenu control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Site.MainContent">
+	<summary>
+MainContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Site_blank.HeadContent">
+	<summary>
+HeadContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Site_blank.ScriptManager2">
+	<summary>
+ScriptManager2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Site_blank.MainContent">
+	<summary>
+MainContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.HomePage.updClient">
+	<summary>
+updClient control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.HomePage.imbSales">
+	<summary>
+imbSales control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.HomePage.imbReport">
+	<summary>
+imbReport control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.HomePage.imbSupport">
+	<summary>
+imbSupport control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.HomePage.imbComm">
+	<summary>
+imbComm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.HomePage.grdAnnounce">
+	<summary>
+grdAnnounce control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.HomePage.grdPerf">
+	<summary>
+grdPerf control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.HomePage.sqlDS_Announce">
+	<summary>
+sqlDS_Announce control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.HomePage.sqlDS_Perf1">
+	<summary>
+sqlDS_Perf1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.HomePage.sqlDS_Perf2">
+	<summary>
+sqlDS_Perf2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.HomePage.sqlDS_High">
+	<summary>
+sqlDS_High control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.AFileUpload.lbleMsg">
+	<summary>
+lbleMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.AFileUpload.panID">
+	<summary>
+panID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.AFileUpload.imgApp">
+	<summary>
+imgApp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.AFileUpload.imbPicRemove">
+	<summary>
+imbPicRemove control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.AFileUpload.fupPic">
+	<summary>
+fupPic control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.AFileUpload.imbPicAdd">
+	<summary>
+imbPicAdd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.AFileUpload.imbExit">
+	<summary>
+imbExit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.populateweek.pnlAdd">
+	<summary>
+pnlAdd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.populateweek.a_wFrom">
+	<summary>
+a_wFrom control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.populateweek.a_wTo">
+	<summary>
+a_wTo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.populateweek.a_weekCoverage">
+	<summary>
+a_weekCoverage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.populateweek.a_wYear">
+	<summary>
+a_wYear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.populateweek.a_wMonthID">
+	<summary>
+a_wMonthID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.populateweek.a_wNo">
+	<summary>
+a_wNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.populateweek.a_hidden">
+	<summary>
+a_hidden control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.populateweek.submit_add">
+	<summary>
+submit_add control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.populateweek.pnlEdit">
+	<summary>
+pnlEdit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.populateweek.i_wFrom">
+	<summary>
+i_wFrom control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.populateweek.i_wTo">
+	<summary>
+i_wTo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.populateweek.i_weekCoverage">
+	<summary>
+i_weekCoverage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.populateweek.i_wYear">
+	<summary>
+i_wYear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.populateweek.i_wMonthID">
+	<summary>
+i_wMonthID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.populateweek.i_wNo">
+	<summary>
+i_wNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.populateweek.i_hidden">
+	<summary>
+i_hidden control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.populateweek.submit_edit">
+	<summary>
+submit_edit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.populateweek.pnlDelete">
+	<summary>
+pnlDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.populateweek.litWkTable">
+	<summary>
+litWkTable control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.updTM">
+	<summary>
+updTM control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.PageUpdateProgress2">
+	<summary>
+PageUpdateProgress2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.lProd">
+	<summary>
+lProd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.lnkProd">
+	<summary>
+lnkProd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.lTMSales">
+	<summary>
+lTMSales control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.lnkTMSales">
+	<summary>
+lnkTMSales control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.lCompete">
+	<summary>
+lCompete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.lnkCompete">
+	<summary>
+lnkCompete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.lStocks">
+	<summary>
+lStocks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.lnkStocks">
+	<summary>
+lnkStocks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.lInventory">
+	<summary>
+lInventory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.lnkInventory">
+	<summary>
+lnkInventory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.lbleMsg">
+	<summary>
+lbleMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.panInfo">
+	<summary>
+panInfo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.lblifProd">
+	<summary>
+lblifProd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.lblifBrand">
+	<summary>
+lblifBrand control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.imbClose">
+	<summary>
+imbClose control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.grdInfo">
+	<summary>
+grdInfo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.panSales">
+	<summary>
+panSales control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.panFilter">
+	<summary>
+panFilter control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.ddlFilter">
+	<summary>
+ddlFilter control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.pnlFC">
+	<summary>
+pnlFC control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.ddlFC">
+	<summary>
+ddlFC control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.lblDate">
+	<summary>
+lblDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.ddlDate">
+	<summary>
+ddlDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.ddlEmp">
+	<summary>
+ddlEmp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.grdSales">
+	<summary>
+grdSales control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.panData">
+	<summary>
+panData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.txtFname">
+	<summary>
+txtFname control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.txtLname">
+	<summary>
+txtLname control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.txtAdd">
+	<summary>
+txtAdd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.ddlCity">
+	<summary>
+ddlCity control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.txtContact">
+	<summary>
+txtContact control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.ddlProd">
+	<summary>
+ddlProd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.ddlDBrand">
+	<summary>
+ddlDBrand control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.imbShow">
+	<summary>
+imbShow control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.ddlSCode">
+	<summary>
+ddlSCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.txtQty">
+	<summary>
+txtQty control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.ddlWeek">
+	<summary>
+ddlWeek control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.ddlDP">
+	<summary>
+ddlDP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.txtSerial">
+	<summary>
+txtSerial control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.txtInvoice">
+	<summary>
+txtInvoice control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.btnModify">
+	<summary>
+btnModify control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.btnCancel">
+	<summary>
+btnCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.panCompete">
+	<summary>
+panCompete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.panCFilter">
+	<summary>
+panCFilter control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.ddlCFilter">
+	<summary>
+ddlCFilter control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.ddlBrand">
+	<summary>
+ddlBrand control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.lblCDate">
+	<summary>
+lblCDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.ddlCDate">
+	<summary>
+ddlCDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.grdCompete">
+	<summary>
+grdCompete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.panCData">
+	<summary>
+panCData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.ddlCDBrand">
+	<summary>
+ddlCDBrand control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.ddlCCap">
+	<summary>
+ddlCCap control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.txtCQty">
+	<summary>
+txtCQty control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.ddlCWeek">
+	<summary>
+ddlCWeek control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.ddlCDP">
+	<summary>
+ddlCDP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.txtFactor">
+	<summary>
+txtFactor control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.btnCModify">
+	<summary>
+btnCModify control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.btnCCancel">
+	<summary>
+btnCCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.panStocks">
+	<summary>
+panStocks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.panSFilter">
+	<summary>
+panSFilter control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.ddlSFilter">
+	<summary>
+ddlSFilter control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.pnlSFC">
+	<summary>
+pnlSFC control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.ddlSFC">
+	<summary>
+ddlSFC control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.lblSDate">
+	<summary>
+lblSDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.ddlSDate">
+	<summary>
+ddlSDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.ddlSEmp">
+	<summary>
+ddlSEmp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.grdStocks">
+	<summary>
+grdStocks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.panSData">
+	<summary>
+panSData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.ddlSProd">
+	<summary>
+ddlSProd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.ddlSDBrand">
+	<summary>
+ddlSDBrand control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.imbSShow">
+	<summary>
+imbSShow control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.ddlSSCode">
+	<summary>
+ddlSSCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.ddlSWeek">
+	<summary>
+ddlSWeek control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.ddlSDP">
+	<summary>
+ddlSDP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.ddlAction">
+	<summary>
+ddlAction control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.txtOthers">
+	<summary>
+txtOthers control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.txtPromo">
+	<summary>
+txtPromo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.btnSModify">
+	<summary>
+btnSModify control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.btnSCancel">
+	<summary>
+btnSCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.panInventory">
+	<summary>
+panInventory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.panIFilter">
+	<summary>
+panIFilter control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.ddlIFilter">
+	<summary>
+ddlIFilter control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.pnlIFC">
+	<summary>
+pnlIFC control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.ddlIFC">
+	<summary>
+ddlIFC control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.lblIDate">
+	<summary>
+lblIDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.ddlIDate">
+	<summary>
+ddlIDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.ddlIEmp">
+	<summary>
+ddlIEmp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.grdInventory">
+	<summary>
+grdInventory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.panIData">
+	<summary>
+panIData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.ddlIProd">
+	<summary>
+ddlIProd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.ddlIDBrand">
+	<summary>
+ddlIDBrand control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.imbIShow">
+	<summary>
+imbIShow control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.ddlISCode">
+	<summary>
+ddlISCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.txtIQty">
+	<summary>
+txtIQty control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.txtComments">
+	<summary>
+txtComments control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.btnIModify">
+	<summary>
+btnIModify control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.btnICancel">
+	<summary>
+btnICancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.panTMSales">
+	<summary>
+panTMSales control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.panTFilter">
+	<summary>
+panTFilter control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.ddlTFilter">
+	<summary>
+ddlTFilter control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.pnlTFC">
+	<summary>
+pnlTFC control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.ddlTFC">
+	<summary>
+ddlTFC control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.lblTDate">
+	<summary>
+lblTDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.ddlTDate">
+	<summary>
+ddlTDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.ddlTEmp">
+	<summary>
+ddlTEmp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.grdTM">
+	<summary>
+grdTM control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.panTData">
+	<summary>
+panTData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.txtTFname">
+	<summary>
+txtTFname control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.txtTLname">
+	<summary>
+txtTLname control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.txtTAdd">
+	<summary>
+txtTAdd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.ddlTCity">
+	<summary>
+ddlTCity control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.txtTContact">
+	<summary>
+txtTContact control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.ddlTProd">
+	<summary>
+ddlTProd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.ddlTDBrand">
+	<summary>
+ddlTDBrand control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.ddlTSCode">
+	<summary>
+ddlTSCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.txtTQty">
+	<summary>
+txtTQty control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.ddlTWeek">
+	<summary>
+ddlTWeek control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.ddlTDP">
+	<summary>
+ddlTDP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.txtTSerial">
+	<summary>
+txtTSerial control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.txtTInvoice">
+	<summary>
+txtTInvoice control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.btnTModify">
+	<summary>
+btnTModify control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.btnTCancel">
+	<summary>
+btnTCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.sqlDS_Sales">
+	<summary>
+sqlDS_Sales control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.sqlDS_Compete">
+	<summary>
+sqlDS_Compete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.sqlDS_Stocks">
+	<summary>
+sqlDS_Stocks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.sqlDS_Info">
+	<summary>
+sqlDS_Info control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.sqlDS_Inventory">
+	<summary>
+sqlDS_Inventory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.ReportUpdate.sqlDS_TMSales">
+	<summary>
+sqlDS_TMSales control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DataBuildUp.updTM">
+	<summary>
+updTM control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DataBuildUp.lnkProd">
+	<summary>
+lnkProd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DataBuildUp.lnkCompete">
+	<summary>
+lnkCompete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DataBuildUp.lnkStocks">
+	<summary>
+lnkStocks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DataBuildUp.lnkInventory">
+	<summary>
+lnkInventory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Feedback.btnNo">
+	<summary>
+btnNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Feedback.btnYes">
+	<summary>
+btnYes control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Feedback.btnLogout">
+	<summary>
+btnLogout control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Support.updTM">
+	<summary>
+updTM control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Support.lnkSubmit">
+	<summary>
+lnkSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Support.lnkMyTicket">
+	<summary>
+lnkMyTicket control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Support.lbleMsg">
+	<summary>
+lbleMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Support.panSubmit">
+	<summary>
+panSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Support.ddlSubj">
+	<summary>
+ddlSubj control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Support.txtComments">
+	<summary>
+txtComments control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Support.btnSubmit">
+	<summary>
+btnSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Support.btnReset">
+	<summary>
+btnReset control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Support.panMyTicket">
+	<summary>
+panMyTicket control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Support.panSDetails">
+	<summary>
+panSDetails control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Support.lblTNo">
+	<summary>
+lblTNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Support.lblDCreated">
+	<summary>
+lblDCreated control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Support.lblSubj">
+	<summary>
+lblSubj control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Support.lblComment">
+	<summary>
+lblComment control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Support.lblStatus">
+	<summary>
+lblStatus control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Support.panReply">
+	<summary>
+panReply control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Support.txtReply">
+	<summary>
+txtReply control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Support.rblSStat">
+	<summary>
+rblSStat control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Support.lbleMsg4">
+	<summary>
+lbleMsg4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Support.btnSubmit1">
+	<summary>
+btnSubmit1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Support.btnAllSupport">
+	<summary>
+btnAllSupport control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Support.grdSTrans">
+	<summary>
+grdSTrans control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Support.panSupport">
+	<summary>
+panSupport control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Support.grdSupport">
+	<summary>
+grdSupport control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Support.sqlDS_Support">
+	<summary>
+sqlDS_Support control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Support.sqlDS_STrans">
+	<summary>
+sqlDS_STrans control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.NewUser.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.NewUser.ScriptManager2">
+	<summary>
+ScriptManager2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.NewUser.updClient">
+	<summary>
+updClient control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.NewUser.lbleMsg">
+	<summary>
+lbleMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.NewUser.FailureText">
+	<summary>
+FailureText control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.NewUser.LoginUserValidationSummary">
+	<summary>
+LoginUserValidationSummary control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.NewUser.UserNameLabel">
+	<summary>
+UserNameLabel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.NewUser.txtNPwd">
+	<summary>
+txtNPwd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.NewUser.UserNameRequired">
+	<summary>
+UserNameRequired control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.NewUser.PasswordLabel">
+	<summary>
+PasswordLabel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.NewUser.txtCPwd">
+	<summary>
+txtCPwd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.NewUser.PasswordRequired">
+	<summary>
+PasswordRequired control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.NewUser.lblSQ">
+	<summary>
+lblSQ control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.NewUser.ddlSQ">
+	<summary>
+ddlSQ control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.NewUser.rfvSQ">
+	<summary>
+rfvSQ control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.NewUser.lblAns">
+	<summary>
+lblAns control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.NewUser.txtAns">
+	<summary>
+txtAns control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.NewUser.rfvAns">
+	<summary>
+rfvAns control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.NewUser.btnUpdate">
+	<summary>
+btnUpdate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.NewUser.btnCancel">
+	<summary>
+btnCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.bon_mailtest.litPleaseSendResult">
+	<summary>
+litPleaseSendResult control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SalesUpload.updTM">
+	<summary>
+updTM control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SalesUpload.PageUpdateProgress2">
+	<summary>
+PageUpdateProgress2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SalesUpload.lbleMsg">
+	<summary>
+lbleMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SalesUpload.Temp">
+	<summary>
+Temp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SalesUpload.ddlForm">
+	<summary>
+ddlForm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SalesUpload.btnDload">
+	<summary>
+btnDload control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SalesUpload.PasswordLabel">
+	<summary>
+PasswordLabel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SalesUpload.ddlWeek">
+	<summary>
+ddlWeek control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SalesUpload.ddlUForm">
+	<summary>
+ddlUForm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SalesUpload.fupUpload">
+	<summary>
+fupUpload control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SalesUpload.btnUpload">
+	<summary>
+btnUpload control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:DiserPortal.My.MyWebExtension.Application">
+	<summary>
+ Returns information about the current application.
+ </summary>
+</member><member name="P:DiserPortal.My.MyWebExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:DiserPortal.My.MyWebExtension.User">
+	<summary>
+ Returns information for the current Web user.
+ </summary>
+</member><member name="P:DiserPortal.My.MyWebExtension.Request">
+	<summary>
+ Returns Request object.
+ </summary>
+</member><member name="P:DiserPortal.My.MyWebExtension.Response">
+	<summary>
+ Returns Response object.
+ </summary>
+</member><member name="P:DiserPortal.My.MyWebExtension.Log">
+	<summary>
+ Returns the Asp log object.
+ </summary>
+</member><member name="P:DiserPortal.My.MyWebExtension.WebServices">
+	<summary>
+ Provides access to WebServices added to this project.
+ </summary>
+</member><member name="T:DiserPortal.My.MyWebExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:DiserPortal.SalesReport.updSearchApp">
+	<summary>
+updSearchApp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SalesReport.btnBack">
+	<summary>
+btnBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SalesReport.lbleMsg">
+	<summary>
+lbleMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SalesReport.lblDiser">
+	<summary>
+lblDiser control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SalesReport.lblWeek">
+	<summary>
+lblWeek control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SalesReport.lblDSub">
+	<summary>
+lblDSub control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SalesReport.grdSearch">
+	<summary>
+grdSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SalesReport.sqlDS_Search">
+	<summary>
+sqlDS_Search control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Report.updTM">
+	<summary>
+updTM control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Report.PageUpdateProgress2">
+	<summary>
+PageUpdateProgress2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Report.lProd">
+	<summary>
+lProd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Report.lnkProd">
+	<summary>
+lnkProd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Report.lCompete">
+	<summary>
+lCompete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Report.lnkCompete">
+	<summary>
+lnkCompete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Report.lStocks">
+	<summary>
+lStocks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Report.lnkStocks">
+	<summary>
+lnkStocks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Report.lInventory">
+	<summary>
+lInventory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Report.lnkInventory">
+	<summary>
+lnkInventory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Report.lbleMsg">
+	<summary>
+lbleMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Report.panSales">
+	<summary>
+panSales control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Report.ddlFilter">
+	<summary>
+ddlFilter control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Report.ddlEmp">
+	<summary>
+ddlEmp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Report.lblDate">
+	<summary>
+lblDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Report.ddlDate">
+	<summary>
+ddlDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Report.grdSales">
+	<summary>
+grdSales control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Report.panCompete">
+	<summary>
+panCompete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Report.ddlCFilter">
+	<summary>
+ddlCFilter control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Report.ddlBrand">
+	<summary>
+ddlBrand control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Report.lblCDate">
+	<summary>
+lblCDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Report.ddlCDate">
+	<summary>
+ddlCDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Report.grdCompete">
+	<summary>
+grdCompete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Report.panStocks">
+	<summary>
+panStocks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Report.ddlSFilter">
+	<summary>
+ddlSFilter control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Report.ddlSEmp">
+	<summary>
+ddlSEmp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Report.lblSDate">
+	<summary>
+lblSDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Report.ddlSDate">
+	<summary>
+ddlSDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Report.grdStocks">
+	<summary>
+grdStocks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Report.panInventory">
+	<summary>
+panInventory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Report.ddlIFilter">
+	<summary>
+ddlIFilter control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Report.ddlIEmp">
+	<summary>
+ddlIEmp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Report.lblIDate">
+	<summary>
+lblIDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Report.ddlIDate">
+	<summary>
+ddlIDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Report.grdInventory">
+	<summary>
+grdInventory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Report.sqlDS_Sales">
+	<summary>
+sqlDS_Sales control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Report.sqlDS_Compete">
+	<summary>
+sqlDS_Compete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Report.sqlDS_Stocks">
+	<summary>
+sqlDS_Stocks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Report.sqlDS_Inventory">
+	<summary>
+sqlDS_Inventory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SecurityQuestion.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SecurityQuestion.ScriptManager2">
+	<summary>
+ScriptManager2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SecurityQuestion.updClient">
+	<summary>
+updClient control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SecurityQuestion.lbleMsg">
+	<summary>
+lbleMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SecurityQuestion.FailureText">
+	<summary>
+FailureText control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SecurityQuestion.LoginUserValidationSummary">
+	<summary>
+LoginUserValidationSummary control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SecurityQuestion.UserNameLabel">
+	<summary>
+UserNameLabel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SecurityQuestion.txtQuestion">
+	<summary>
+txtQuestion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SecurityQuestion.PasswordLabel">
+	<summary>
+PasswordLabel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SecurityQuestion.txtAnswer">
+	<summary>
+txtAnswer control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SecurityQuestion.PasswordRequired">
+	<summary>
+PasswordRequired control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SecurityQuestion.btnValidate">
+	<summary>
+btnValidate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SecurityQuestion.btnCancel">
+	<summary>
+btnCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.updTM">
+	<summary>
+updTM control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.PageUpdateProgress2">
+	<summary>
+PageUpdateProgress2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.lnkAnnounce">
+	<summary>
+lnkAnnounce control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.lnkSupport">
+	<summary>
+lnkSupport control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.lnkAccnt">
+	<summary>
+lnkAccnt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.lnkAType">
+	<summary>
+lnkAType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.lnkData">
+	<summary>
+lnkData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.lbleMsg">
+	<summary>
+lbleMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.panAType">
+	<summary>
+panAType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.ddlAType">
+	<summary>
+ddlAType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.txtAType">
+	<summary>
+txtAType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.btnCreate">
+	<summary>
+btnCreate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.btnCancel">
+	<summary>
+btnCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.chkFSales">
+	<summary>
+chkFSales control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.chkRSales">
+	<summary>
+chkRSales control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.chkData">
+	<summary>
+chkData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.chkFProd">
+	<summary>
+chkFProd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.chkRProd">
+	<summary>
+chkRProd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.chkAnnounce">
+	<summary>
+chkAnnounce control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.chkFCompete">
+	<summary>
+chkFCompete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.chkRCompete">
+	<summary>
+chkRCompete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.chkContent">
+	<summary>
+chkContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.chkFStocks">
+	<summary>
+chkFStocks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.chkRStocks">
+	<summary>
+chkRStocks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.chkFInventory">
+	<summary>
+chkFInventory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.chkRInventory">
+	<summary>
+chkRInventory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.chkRTM">
+	<summary>
+chkRTM control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.chkFVisual">
+	<summary>
+chkFVisual control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.chkRVisual">
+	<summary>
+chkRVisual control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.chkFTrade">
+	<summary>
+chkFTrade control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.chkRTrade">
+	<summary>
+chkRTrade control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.chkFSupport">
+	<summary>
+chkFSupport control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.chkRSupport">
+	<summary>
+chkRSupport control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.panData">
+	<summary>
+panData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.btnHGeneral">
+	<summary>
+btnHGeneral control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.btnHSupport">
+	<summary>
+btnHSupport control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.btnHStore">
+	<summary>
+btnHStore control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.btnHCCAC">
+	<summary>
+btnHCCAC control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.btnHCompete">
+	<summary>
+btnHCompete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.btnHReport">
+	<summary>
+btnHReport control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.btnPopDay">
+	<summary>
+btnPopDay control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.btnPopWeek">
+	<summary>
+btnPopWeek control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.btnHSA">
+	<summary>
+btnHSA control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.txtSA">
+	<summary>
+txtSA control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.btnProd">
+	<summary>
+btnProd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.btnBrand">
+	<summary>
+btnBrand control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.btnItem">
+	<summary>
+btnItem control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.btnModel">
+	<summary>
+btnModel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.btnCap">
+	<summary>
+btnCap control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.btnVariant">
+	<summary>
+btnVariant control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.btnAction">
+	<summary>
+btnAction control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.btnDealer">
+	<summary>
+btnDealer control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.btnStore">
+	<summary>
+btnStore control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.btnCity">
+	<summary>
+btnCity control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.btnProv">
+	<summary>
+btnProv control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.btnRegion">
+	<summary>
+btnRegion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.btnQuestion">
+	<summary>
+btnQuestion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.btnCBrand">
+	<summary>
+btnCBrand control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.btnCCap">
+	<summary>
+btnCCap control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.btnSubject">
+	<summary>
+btnSubject control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.btnTarget">
+	<summary>
+btnTarget control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.panProd">
+	<summary>
+panProd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.txtProd">
+	<summary>
+txtProd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.imbAProd">
+	<summary>
+imbAProd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.imbMProd">
+	<summary>
+imbMProd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.lstProd">
+	<summary>
+lstProd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.panBrand">
+	<summary>
+panBrand control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.ddlBProd">
+	<summary>
+ddlBProd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.txtBrand">
+	<summary>
+txtBrand control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.imbABrand">
+	<summary>
+imbABrand control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.imbMBrand">
+	<summary>
+imbMBrand control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.grdBrand">
+	<summary>
+grdBrand control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.panModel">
+	<summary>
+panModel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.ddlMProd">
+	<summary>
+ddlMProd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.ddlMBrand">
+	<summary>
+ddlMBrand control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.txtModel">
+	<summary>
+txtModel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.btnMCreate">
+	<summary>
+btnMCreate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.btnMCancel">
+	<summary>
+btnMCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.grdModel">
+	<summary>
+grdModel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.panItem">
+	<summary>
+panItem control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.ddliProd">
+	<summary>
+ddliProd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.ddliBrand">
+	<summary>
+ddliBrand control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.txtItem">
+	<summary>
+txtItem control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.txtLCode">
+	<summary>
+txtLCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.txtDesc">
+	<summary>
+txtDesc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.ddliModel">
+	<summary>
+ddliModel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.ddliVariant">
+	<summary>
+ddliVariant control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.ddliCap">
+	<summary>
+ddliCap control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.btnICreate">
+	<summary>
+btnICreate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.btnICancel">
+	<summary>
+btnICancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.grdItem">
+	<summary>
+grdItem control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.panCap">
+	<summary>
+panCap control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.ddlCProd">
+	<summary>
+ddlCProd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.ddlCBrand">
+	<summary>
+ddlCBrand control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.txtCap">
+	<summary>
+txtCap control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.btnCapCreate">
+	<summary>
+btnCapCreate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.btnCapCancel">
+	<summary>
+btnCapCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.grdCap">
+	<summary>
+grdCap control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.panVariant">
+	<summary>
+panVariant control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.txtVariant">
+	<summary>
+txtVariant control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.imbAVariant">
+	<summary>
+imbAVariant control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.imbMVariant">
+	<summary>
+imbMVariant control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.lstVariant">
+	<summary>
+lstVariant control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.panDealer">
+	<summary>
+panDealer control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.txtDealer">
+	<summary>
+txtDealer control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.imbADealer">
+	<summary>
+imbADealer control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.imbMDealer">
+	<summary>
+imbMDealer control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.lstDealer">
+	<summary>
+lstDealer control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.panLoc">
+	<summary>
+panLoc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.txtLoc">
+	<summary>
+txtLoc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.imbALoc">
+	<summary>
+imbALoc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.imbMLoc">
+	<summary>
+imbMLoc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.lstLoc">
+	<summary>
+lstLoc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.panStore">
+	<summary>
+panStore control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.txtSC">
+	<summary>
+txtSC control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.ddlSCDealer">
+	<summary>
+ddlSCDealer control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.ddlSCLoc">
+	<summary>
+ddlSCLoc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.ddlSCRegion">
+	<summary>
+ddlSCRegion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.txtParent">
+	<summary>
+txtParent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.txtChild1">
+	<summary>
+txtChild1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.txtChild2">
+	<summary>
+txtChild2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.txtChild3">
+	<summary>
+txtChild3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.btnSCCreate">
+	<summary>
+btnSCCreate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.btnSCCancel">
+	<summary>
+btnSCCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.grdStore">
+	<summary>
+grdStore control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.panCity">
+	<summary>
+panCity control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.ddlCRegion">
+	<summary>
+ddlCRegion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.ddlCProv">
+	<summary>
+ddlCProv control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.txtCity">
+	<summary>
+txtCity control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.btnCCreate">
+	<summary>
+btnCCreate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.btnCCancel">
+	<summary>
+btnCCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.grdCity">
+	<summary>
+grdCity control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.panProv">
+	<summary>
+panProv control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.ddlPRegion">
+	<summary>
+ddlPRegion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.txtProvince">
+	<summary>
+txtProvince control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.btnPCreate">
+	<summary>
+btnPCreate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.btnPCancel">
+	<summary>
+btnPCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.grdProv">
+	<summary>
+grdProv control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.panRegion">
+	<summary>
+panRegion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.txtRegion">
+	<summary>
+txtRegion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.imbARegion">
+	<summary>
+imbARegion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.imbMRegion">
+	<summary>
+imbMRegion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.lstRegion">
+	<summary>
+lstRegion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.panAction">
+	<summary>
+panAction control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.txtAction">
+	<summary>
+txtAction control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.imbAAction">
+	<summary>
+imbAAction control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.imbMAction">
+	<summary>
+imbMAction control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.lstAction">
+	<summary>
+lstAction control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.panQuestion">
+	<summary>
+panQuestion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.txtQuestion">
+	<summary>
+txtQuestion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.imbAQuestion">
+	<summary>
+imbAQuestion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.imbMQuestion">
+	<summary>
+imbMQuestion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.lstQuestion">
+	<summary>
+lstQuestion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.panCBrand">
+	<summary>
+panCBrand control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.txtCBrand">
+	<summary>
+txtCBrand control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.imbACBrand">
+	<summary>
+imbACBrand control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.imbMCBrand">
+	<summary>
+imbMCBrand control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.lstCBrand">
+	<summary>
+lstCBrand control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.panCCap">
+	<summary>
+panCCap control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.txtCCap">
+	<summary>
+txtCCap control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.imbACCap">
+	<summary>
+imbACCap control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.imbMCCap">
+	<summary>
+imbMCCap control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.lstCCap">
+	<summary>
+lstCCap control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.panSubject">
+	<summary>
+panSubject control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.txtSubject">
+	<summary>
+txtSubject control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.imbASubject">
+	<summary>
+imbASubject control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.imbMSubject">
+	<summary>
+imbMSubject control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.lstSubject">
+	<summary>
+lstSubject control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.panTarget">
+	<summary>
+panTarget control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.ddlTProd">
+	<summary>
+ddlTProd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.ddlTWeek">
+	<summary>
+ddlTWeek control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.txtWeek">
+	<summary>
+txtWeek control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.btnTWCreate">
+	<summary>
+btnTWCreate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.btnTWCancel">
+	<summary>
+btnTWCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.ddlMonth">
+	<summary>
+ddlMonth control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.ddlMYear">
+	<summary>
+ddlMYear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.txtMonth">
+	<summary>
+txtMonth control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.btnTMCreate">
+	<summary>
+btnTMCreate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.btnTMCancel">
+	<summary>
+btnTMCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.ddlYear">
+	<summary>
+ddlYear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.txtYear">
+	<summary>
+txtYear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.btnTYCreate">
+	<summary>
+btnTYCreate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.btnTYCancel">
+	<summary>
+btnTYCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.grdTarget">
+	<summary>
+grdTarget control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.pnlPopDay">
+	<summary>
+pnlPopDay control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.pnlPopWeek">
+	<summary>
+pnlPopWeek control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.panAnnounce">
+	<summary>
+panAnnounce control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.panAData">
+	<summary>
+panAData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.imgPic">
+	<summary>
+imgPic control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.imbPicRemove">
+	<summary>
+imbPicRemove control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.txtTitle">
+	<summary>
+txtTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.txtIntro">
+	<summary>
+txtIntro control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.txtStory">
+	<summary>
+txtStory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.rblPublish">
+	<summary>
+rblPublish control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.lblCDate">
+	<summary>
+lblCDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.lblCBy">
+	<summary>
+lblCBy control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.iMDate">
+	<summary>
+iMDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.lblMDate">
+	<summary>
+lblMDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.iMBy">
+	<summary>
+iMBy control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.lblMBy">
+	<summary>
+lblMBy control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.lbleMsg1">
+	<summary>
+lbleMsg1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.btnModify">
+	<summary>
+btnModify control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.btnACancel">
+	<summary>
+btnACancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.btnAddPic">
+	<summary>
+btnAddPic control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.btnACreate">
+	<summary>
+btnACreate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.grdAnnounce">
+	<summary>
+grdAnnounce control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.panSupport">
+	<summary>
+panSupport control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.panSData">
+	<summary>
+panSData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.lblTNo">
+	<summary>
+lblTNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.lblDCreated">
+	<summary>
+lblDCreated control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.lblSCBy">
+	<summary>
+lblSCBy control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.lblSubj">
+	<summary>
+lblSubj control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.lblComment">
+	<summary>
+lblComment control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.lblStatus">
+	<summary>
+lblStatus control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.panReply">
+	<summary>
+panReply control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.txtReply">
+	<summary>
+txtReply control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.rblSStat">
+	<summary>
+rblSStat control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.lbleMsg4">
+	<summary>
+lbleMsg4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.btnSubmit">
+	<summary>
+btnSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.btnAllSupport">
+	<summary>
+btnAllSupport control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.grdSTrans">
+	<summary>
+grdSTrans control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.panSGrid">
+	<summary>
+panSGrid control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.grdSupport">
+	<summary>
+grdSupport control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.panAccount">
+	<summary>
+panAccount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.btnAEmp">
+	<summary>
+btnAEmp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.btnUnlock">
+	<summary>
+btnUnlock control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.btnReactivate">
+	<summary>
+btnReactivate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.panUsers">
+	<summary>
+panUsers control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.panUSearch">
+	<summary>
+panUSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.txtSearch">
+	<summary>
+txtSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.btnSearch">
+	<summary>
+btnSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.ddlFType">
+	<summary>
+ddlFType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.ddlFStatus">
+	<summary>
+ddlFStatus control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.grdAccount">
+	<summary>
+grdAccount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.panDeactivate">
+	<summary>
+panDeactivate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.grdDeactivate">
+	<summary>
+grdDeactivate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.panUnlock">
+	<summary>
+panUnlock control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.grdUnlock">
+	<summary>
+grdUnlock control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.panAEmp">
+	<summary>
+panAEmp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.txtFname">
+	<summary>
+txtFname control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.txtMname">
+	<summary>
+txtMname control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.txtLname">
+	<summary>
+txtLname control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.txtAAdd">
+	<summary>
+txtAAdd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.txtAContact">
+	<summary>
+txtAContact control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.txtAEmail">
+	<summary>
+txtAEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.txtAUname">
+	<summary>
+txtAUname control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.ddlAAType">
+	<summary>
+ddlAAType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.ddlLStat">
+	<summary>
+ddlLStat control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.ddlFC">
+	<summary>
+ddlFC control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.lblFC">
+	<summary>
+lblFC control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.ddlSFC">
+	<summary>
+ddlSFC control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.txtADouble">
+	<summary>
+txtADouble control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.ddlStore">
+	<summary>
+ddlStore control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.lbleMsg3">
+	<summary>
+lbleMsg3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.btnAcModify">
+	<summary>
+btnAcModify control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.btnAcCancel">
+	<summary>
+btnAcCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.btnAcReset">
+	<summary>
+btnAcReset control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.btnDeactivate">
+	<summary>
+btnDeactivate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.sqlDS_Deactivate">
+	<summary>
+sqlDS_Deactivate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.sqlDS_Unlock">
+	<summary>
+sqlDS_Unlock control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.sqlDS_Announce">
+	<summary>
+sqlDS_Announce control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.sqlDS_Account">
+	<summary>
+sqlDS_Account control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.sqlDS_Brand">
+	<summary>
+sqlDS_Brand control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.sqlDS_Item">
+	<summary>
+sqlDS_Item control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.sqlDS_Model">
+	<summary>
+sqlDS_Model control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.sqlDS_Cap">
+	<summary>
+sqlDS_Cap control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.sqlDS_City">
+	<summary>
+sqlDS_City control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.sqlDS_Prov">
+	<summary>
+sqlDS_Prov control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.sqlDS_Store">
+	<summary>
+sqlDS_Store control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.sqlDS_Support">
+	<summary>
+sqlDS_Support control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.sqlDS_STrans">
+	<summary>
+sqlDS_STrans control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Admin.sqlDS_Target">
+	<summary>
+sqlDS_Target control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.populateday.pnlAdd">
+	<summary>
+pnlAdd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.populateday.a_wDay">
+	<summary>
+a_wDay control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.populateday.a_weekID">
+	<summary>
+a_weekID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.populateday.a_hidden">
+	<summary>
+a_hidden control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.populateday.submit_add">
+	<summary>
+submit_add control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.populateday.pnlEdit">
+	<summary>
+pnlEdit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.populateday.i_wDay">
+	<summary>
+i_wDay control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.populateday.i_weekID">
+	<summary>
+i_weekID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.populateday.i_hidden">
+	<summary>
+i_hidden control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.populateday.submit_edit">
+	<summary>
+submit_edit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.populateday.pnlDelete">
+	<summary>
+pnlDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.populateday.litWDTable">
+	<summary>
+litWDTable control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Gotcha.txtUID">
+	<summary>
+txtUID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Gotcha.btnUGoGirl">
+	<summary>
+btnUGoGirl control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.RefreshSession.btnExtendSes">
+	<summary>
+btnExtendSes control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.RefreshSession.btnLogout">
+	<summary>
+btnLogout control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Community.updTM">
+	<summary>
+updTM control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Community.lkbDiser">
+	<summary>
+lkbDiser control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Community.lkbFC">
+	<summary>
+lkbFC control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Community.lkbAssess">
+	<summary>
+lkbAssess control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Community.lkbDisplay">
+	<summary>
+lkbDisplay control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Community.lkbDAct">
+	<summary>
+lkbDAct control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Community.lkbGallery">
+	<summary>
+lkbGallery control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Community.lkbIncentive">
+	<summary>
+lkbIncentive control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Community.lkbBday">
+	<summary>
+lkbBday control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Community.lkbSaveh">
+	<summary>
+lkbSaveh control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Community.lkbKwento">
+	<summary>
+lkbKwento control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Community.lkbSpoofs">
+	<summary>
+lkbSpoofs control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Community.panDiser">
+	<summary>
+panDiser control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Community.imgDiser">
+	<summary>
+imgDiser control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Community.lblDNote">
+	<summary>
+lblDNote control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Community.lblSales">
+	<summary>
+lblSales control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Community.lblDiser">
+	<summary>
+lblDiser control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Community.lblFC">
+	<summary>
+lblFC control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Community.lblSFC">
+	<summary>
+lblSFC control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Community.lblStore">
+	<summary>
+lblStore control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Community.lblLoc">
+	<summary>
+lblLoc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Community.grdDiser">
+	<summary>
+grdDiser control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Community.sqlDS_Diser">
+	<summary>
+sqlDS_Diser control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Login.LoginUser">
+	<summary>
+LoginUser control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Sales.updTM">
+	<summary>
+updTM control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Sales.PageUpdateProgress2">
+	<summary>
+PageUpdateProgress2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Sales.lProd">
+	<summary>
+lProd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Sales.lnkProd">
+	<summary>
+lnkProd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Sales.lCompete">
+	<summary>
+lCompete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Sales.lnkCompete">
+	<summary>
+lnkCompete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Sales.lStocks">
+	<summary>
+lStocks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Sales.lnkStocks">
+	<summary>
+lnkStocks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Sales.lInventory">
+	<summary>
+lInventory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Sales.lnkInventory">
+	<summary>
+lnkInventory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Sales.ddlWeek">
+	<summary>
+ddlWeek control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Sales.btnCreate">
+	<summary>
+btnCreate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Sales.btnSubmit">
+	<summary>
+btnSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Sales.btnUpload">
+	<summary>
+btnUpload control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Sales.lbleMsg">
+	<summary>
+lbleMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Sales.imbYes">
+	<summary>
+imbYes control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Sales.imbNo">
+	<summary>
+imbNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Sales.panInfo">
+	<summary>
+panInfo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Sales.lblifProd">
+	<summary>
+lblifProd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Sales.lblifBrand">
+	<summary>
+lblifBrand control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Sales.imbClose">
+	<summary>
+imbClose control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Sales.grdInfo">
+	<summary>
+grdInfo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Sales.panSales">
+	<summary>
+panSales control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Sales.grdSales">
+	<summary>
+grdSales control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Sales.panCompete">
+	<summary>
+panCompete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Sales.grdCompetitor">
+	<summary>
+grdCompetitor control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Sales.panStocks">
+	<summary>
+panStocks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Sales.grdStocks">
+	<summary>
+grdStocks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Sales.panInventory">
+	<summary>
+panInventory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Sales.grdInventory">
+	<summary>
+grdInventory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Sales.sqlDS_Info">
+	<summary>
+sqlDS_Info control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Sales.sqlDS_Sales">
+	<summary>
+sqlDS_Sales control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Sales.sqlDS_Competitor">
+	<summary>
+sqlDS_Competitor control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Sales.sqlDS_Stocks">
+	<summary>
+sqlDS_Stocks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Sales.sqlDS_Inventory">
+	<summary>
+sqlDS_Inventory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SuperAdmin.updTM">
+	<summary>
+updTM control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SuperAdmin.panMain">
+	<summary>
+panMain control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SuperAdmin.txtQry">
+	<summary>
+txtQry control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SuperAdmin.txtTblName">
+	<summary>
+txtTblName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SuperAdmin.btnGo">
+	<summary>
+btnGo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SuperAdmin.txtSQL">
+	<summary>
+txtSQL control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SuperAdmin.lbleMsg">
+	<summary>
+lbleMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SuperAdmin.grdResult">
+	<summary>
+grdResult control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SuperAdmin.panWeek">
+	<summary>
+panWeek control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SuperAdmin.btnDelete">
+	<summary>
+btnDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SuperAdmin.txtDTable">
+	<summary>
+txtDTable control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SuperAdmin.txtDWhere">
+	<summary>
+txtDWhere control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SuperAdmin.btnSet">
+	<summary>
+btnSet control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SuperAdmin.txtSTable">
+	<summary>
+txtSTable control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SuperAdmin.btnAlter">
+	<summary>
+btnAlter control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SuperAdmin.txtATable">
+	<summary>
+txtATable control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SuperAdmin.txtFld">
+	<summary>
+txtFld control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SuperAdmin.txtDType">
+	<summary>
+txtDType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SuperAdmin.btnDrop">
+	<summary>
+btnDrop control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SuperAdmin.txtDView">
+	<summary>
+txtDView control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SuperAdmin.btnCView">
+	<summary>
+btnCView control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SuperAdmin.txtCView">
+	<summary>
+txtCView control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SuperAdmin.txtView">
+	<summary>
+txtView control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SuperAdmin.btnED">
+	<summary>
+btnED control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SuperAdmin.txtIE">
+	<summary>
+txtIE control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SuperAdmin.txtIER">
+	<summary>
+txtIER control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SuperAdmin.txtID">
+	<summary>
+txtID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SuperAdmin.txtIDR">
+	<summary>
+txtIDR control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SuperAdmin.btnWeek">
+	<summary>
+btnWeek control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SuperAdmin.btnUpdUname">
+	<summary>
+btnUpdUname control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SuperAdmin.btnUpdPwd">
+	<summary>
+btnUpdPwd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SuperAdmin.btnUpdPB">
+	<summary>
+btnUpdPB control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SuperAdmin.btnUpdCap">
+	<summary>
+btnUpdCap control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SuperAdmin.btnUpdTCap">
+	<summary>
+btnUpdTCap control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SuperAdmin.btnUpdStore">
+	<summary>
+btnUpdStore control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SuperAdmin.btnUpdUserStore">
+	<summary>
+btnUpdUserStore control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SuperAdmin.btnUpMann">
+	<summary>
+btnUpMann control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SuperAdmin.btnUpMLoc">
+	<summary>
+btnUpMLoc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SuperAdmin.btnUpMID">
+	<summary>
+btnUpMID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SuperAdmin.btnUpMRegion">
+	<summary>
+btnUpMRegion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SuperAdmin.sqlDS">
+	<summary>
+sqlDS control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SuperAdmin.sqlDS_Week">
+	<summary>
+sqlDS_Week control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SuperAdmin.panFUP">
+	<summary>
+panFUP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SuperAdmin.fupUpCap">
+	<summary>
+fupUpCap control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SuperAdmin.btnUpCap">
+	<summary>
+btnUpCap control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SuperAdmin.fupUpItems">
+	<summary>
+fupUpItems control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SuperAdmin.btnUpItems">
+	<summary>
+btnUpItems control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SuperAdmin.fupUpDealer">
+	<summary>
+fupUpDealer control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SuperAdmin.btnUpDealer">
+	<summary>
+btnUpDealer control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SuperAdmin.fupUpLoc">
+	<summary>
+fupUpLoc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SuperAdmin.btnUpLoc">
+	<summary>
+btnUpLoc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SuperAdmin.fupUpStore">
+	<summary>
+fupUpStore control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.SuperAdmin.btnUpStore">
+	<summary>
+btnUpStore control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Forgot_Password.lbleMsg">
+	<summary>
+lbleMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Forgot_Password.p_email_validator">
+	<summary>
+p_email_validator control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Forgot_Password.p_email_reg">
+	<summary>
+p_email_reg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Forgot_Password.liame">
+	<summary>
+liame control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Forgot_Password.send_email">
+	<summary>
+send_email control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal._Default.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal._Default.ScriptManager2">
+	<summary>
+ScriptManager2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal._Default.updClient">
+	<summary>
+updClient control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal._Default.lbleMsg1">
+	<summary>
+lbleMsg1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal._Default.FailureText">
+	<summary>
+FailureText control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal._Default.LoginUserValidationSummary">
+	<summary>
+LoginUserValidationSummary control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal._Default.UserNameLabel">
+	<summary>
+UserNameLabel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal._Default.txtUname">
+	<summary>
+txtUname control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal._Default.UserNameRequired">
+	<summary>
+UserNameRequired control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal._Default.PasswordLabel">
+	<summary>
+PasswordLabel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal._Default.txtPwd">
+	<summary>
+txtPwd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal._Default.PasswordRequired">
+	<summary>
+PasswordRequired control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal._Default.lkbForgot">
+	<summary>
+lkbForgot control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal._Default.btnLogin0">
+	<summary>
+btnLogin0 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal._Default.btnLogin">
+	<summary>
+btnLogin control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Password_Retrieve.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Password_Retrieve.ScriptManager2">
+	<summary>
+ScriptManager2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Password_Retrieve.updClient">
+	<summary>
+updClient control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Password_Retrieve.lbleMsg">
+	<summary>
+lbleMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Password_Retrieve.FailureText">
+	<summary>
+FailureText control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Password_Retrieve.LoginUserValidationSummary">
+	<summary>
+LoginUserValidationSummary control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Password_Retrieve.UserNameLabel">
+	<summary>
+UserNameLabel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Password_Retrieve.txtNPwd">
+	<summary>
+txtNPwd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Password_Retrieve.UserNameRequired">
+	<summary>
+UserNameRequired control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Password_Retrieve.PasswordLabel">
+	<summary>
+PasswordLabel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Password_Retrieve.txtCPwd">
+	<summary>
+txtCPwd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Password_Retrieve.PasswordRequired">
+	<summary>
+PasswordRequired control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Password_Retrieve.btnUpdate">
+	<summary>
+btnUpdate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Password_Retrieve.btnCancel">
+	<summary>
+btnCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Announcement.updTM">
+	<summary>
+updTM control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Announcement.grdAnnounce">
+	<summary>
+grdAnnounce control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Announcement.panAnnounce">
+	<summary>
+panAnnounce control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Announcement.imgPic">
+	<summary>
+imgPic control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Announcement.lblTitle">
+	<summary>
+lblTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Announcement.lblIntro">
+	<summary>
+lblIntro control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Announcement.lblStory">
+	<summary>
+lblStory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Announcement.lblCDate">
+	<summary>
+lblCDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Announcement.lblCBy">
+	<summary>
+lblCBy control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Announcement.iMDate">
+	<summary>
+iMDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Announcement.lblMDate">
+	<summary>
+lblMDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Announcement.iMBy">
+	<summary>
+iMBy control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Announcement.lblMBy">
+	<summary>
+lblMBy control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Announcement.lnkAll">
+	<summary>
+lnkAll control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.Announcement.sqlDS_Announce">
+	<summary>
+sqlDS_Announce control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.updTM">
+	<summary>
+updTM control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.PageUpdateProgress2">
+	<summary>
+PageUpdateProgress2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.lblWeek">
+	<summary>
+lblWeek control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.btnLoadFile">
+	<summary>
+btnLoadFile control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.lbleMsg">
+	<summary>
+lbleMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.panSales">
+	<summary>
+panSales control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.panData">
+	<summary>
+panData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.txtFname">
+	<summary>
+txtFname control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.txtLname">
+	<summary>
+txtLname control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.txtAdd">
+	<summary>
+txtAdd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.ddlCity">
+	<summary>
+ddlCity control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.txtContact">
+	<summary>
+txtContact control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.lblQty">
+	<summary>
+lblQty control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.ddlQty">
+	<summary>
+ddlQty control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.lblProd">
+	<summary>
+lblProd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.ddlProd">
+	<summary>
+ddlProd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.lblBrand">
+	<summary>
+lblBrand control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.ddlBrand">
+	<summary>
+ddlBrand control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.lblSCode">
+	<summary>
+lblSCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.ddlSCode">
+	<summary>
+ddlSCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.lblDP">
+	<summary>
+lblDP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.ddlDP">
+	<summary>
+ddlDP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.txtSerial">
+	<summary>
+txtSerial control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.txtInvoice">
+	<summary>
+txtInvoice control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.lblStatus">
+	<summary>
+lblStatus control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.btnModify">
+	<summary>
+btnModify control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.btnCancel">
+	<summary>
+btnCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.grdUpload">
+	<summary>
+grdUpload control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.sqlDS_Upload">
+	<summary>
+sqlDS_Upload control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.panCompete">
+	<summary>
+panCompete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.panCData">
+	<summary>
+panCData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.lblCBrand">
+	<summary>
+lblCBrand control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.ddlCBrand">
+	<summary>
+ddlCBrand control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.lblCCap">
+	<summary>
+lblCCap control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.ddlCCap">
+	<summary>
+ddlCCap control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.lblCQty">
+	<summary>
+lblCQty control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.ddlCQty">
+	<summary>
+ddlCQty control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.lblCDP">
+	<summary>
+lblCDP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.ddlCDP">
+	<summary>
+ddlCDP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.txtFactors">
+	<summary>
+txtFactors control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.lblCStatus">
+	<summary>
+lblCStatus control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.btnCModify">
+	<summary>
+btnCModify control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.btnCCancel">
+	<summary>
+btnCCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.grdCUpload">
+	<summary>
+grdCUpload control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.sqlDS_CUpload">
+	<summary>
+sqlDS_CUpload control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.panStocks">
+	<summary>
+panStocks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.panSData">
+	<summary>
+panSData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.lblSProd">
+	<summary>
+lblSProd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.ddlSProd">
+	<summary>
+ddlSProd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.lblSBrand">
+	<summary>
+lblSBrand control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.ddlSBrand">
+	<summary>
+ddlSBrand control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.lblSSCode">
+	<summary>
+lblSSCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.ddlSSCode">
+	<summary>
+ddlSSCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.lblSDP">
+	<summary>
+lblSDP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.ddlSDP">
+	<summary>
+ddlSDP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.lblAction">
+	<summary>
+lblAction control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.ddlAction">
+	<summary>
+ddlAction control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.panOthers">
+	<summary>
+panOthers control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.txtOthers">
+	<summary>
+txtOthers control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.txtPromo">
+	<summary>
+txtPromo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.lblSStatus">
+	<summary>
+lblSStatus control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.btnSModify">
+	<summary>
+btnSModify control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.btnSCancel">
+	<summary>
+btnSCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.grdSUpload">
+	<summary>
+grdSUpload control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.sqlDS_SUpload">
+	<summary>
+sqlDS_SUpload control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.panInventory">
+	<summary>
+panInventory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.panIData">
+	<summary>
+panIData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.lblIProd">
+	<summary>
+lblIProd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.ddlIProd">
+	<summary>
+ddlIProd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.lblIBrand">
+	<summary>
+lblIBrand control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.ddlIBrand">
+	<summary>
+ddlIBrand control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.lblISCode">
+	<summary>
+lblISCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.ddlISCode">
+	<summary>
+ddlISCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.lblIQty">
+	<summary>
+lblIQty control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.ddlIQty">
+	<summary>
+ddlIQty control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.txtComments">
+	<summary>
+txtComments control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.lblIStatus">
+	<summary>
+lblIStatus control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.btnIModify">
+	<summary>
+btnIModify control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.btnICancel">
+	<summary>
+btnICancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.grdIUpload">
+	<summary>
+grdIUpload control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:DiserPortal.DownloadedFile.sqlDS_IUpload">
+	<summary>
+sqlDS_IUpload control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>

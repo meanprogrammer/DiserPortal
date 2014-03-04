@@ -1,0 +1,324 @@
+﻿.DataWebControlStyle
+{
+    font-size: 100%;
+    font-family:Candara, Arial, Tahoma;
+}
+
+/* Header Style */
+.HeaderStyle
+{
+    background-color: #404040;
+    background-image:url(../images/bg.jpg);
+    color: white;
+    font-weight: bold;
+    text-align:center;
+    height:20px;
+    padding:3px;
+}
+.HeaderStyle a, .HeaderStyle a:visited
+{
+    color: white;
+}
+
+/* Row Style */
+.RowStyle
+{
+	padding:5px;
+	background-color:#fff0d4;
+	text-align:center;
+	vertical-align:middle;
+	color:white;
+	font-size:12px;
+	font-family:Candara, Arial, Tahoma;
+}
+.RowStyle td
+{
+	padding:5px;
+	background-color:#fff0d4;     /*9fcefe;*/
+	text-align:center;
+	vertical-align:middle;
+	color:black;
+	font-size:12px;
+	font-family:Candara, Arial, Tahoma;
+}
+.RowStyle input[text="Text"]
+{
+	padding:3px;
+	width:250px;
+	text-align:center;
+	font-size:12px;
+}
+.RowStyle textarea
+{
+	padding:3px;
+	width:250px;
+	text-align:center;
+	font-size:12px;
+	font-family:Candara, Arial, Tahoma;
+}
+.RowStyle select
+{
+	padding:3px;
+	width:150px;
+	text-align:center;
+	font-size:13px;
+}
+
+/* Alternate Row Style */
+.AlternatingRowStyle
+{
+	padding:3px;
+	vertical-align:middle;
+    background-color:beige;
+    font-family:Candara, Arial, Tahoma;
+}
+.AlternatingRowStyle td
+{
+	font-size:12px;
+	color:black;
+	font-family:Candara, Arial, Tahoma;
+	padding-top:5px;
+	padding-bottom:5px;
+	vertical-align:top;
+	text-align:center;
+	font-size:12px;
+}
+.AlternatingRowStyle input[text="Text"]
+{
+	padding:3px;
+	width:150px;
+	text-align:center;
+	font-size:12px;
+}
+.AlternatingRowStyle textarea
+{
+	padding:3px;
+	width:150px;
+	text-align:center;
+	font-size:12px;
+	font-family:Candara, Arial, Tahoma;
+}
+.AlternatingRowStyle select
+{
+	padding:3px;
+	width:150px;
+	text-align:center;
+	font-size:12px;
+}
+
+/* Footer Style */
+.FooterStyle
+{
+	padding:3px;
+	background-image:url(../images/bg.jpg);
+    background-color:#404040;
+    color: white;
+    font-size:13px;
+    text-align: center;
+}
+.FooterStyle td
+{
+	font-size:13px;
+	color:gainsboro;
+	font-family:Candara, Arial, Tahoma;
+	padding-top:5px;
+	padding-bottom:5px;
+	vertical-align:top;
+	text-align:center;
+}
+.FooterStyle td input[text="Text"]
+{
+	padding:3px;
+	width:100%;
+	text-align:center;
+	font-size:13px;
+}
+.FooterStyle td textarea
+{
+	padding:3px;
+	width:150px;
+	text-align:center;
+	height:90px;
+	font-size:13px;
+}
+.FooterStyle td select
+{
+	padding:3px;
+	width:150px;
+	text-align:center;
+	font-size:13px;
+}
+
+/* Selected Row Style */
+.SelectedRowStyle
+{
+	padding:3px;
+    background-color:lavander;
+    color:gainsboro;
+}
+
+/* Edit Row Style */
+.EditRowStyle
+{
+	background-color:skyblue;
+	color:white;
+	font-size:13px;
+}
+.EditRowStyle td
+{
+	background-color:SteelBlue;
+	font-size:13px;
+	color:white;
+}
+.EditRowStyle td input[text="Text"]
+{
+	padding:3px;
+	width:100%;
+	text-align:center;
+	font-size:13px;
+}
+.EditRowStyle td textarea
+{
+	padding:3px;
+	width:150px;
+	text-align:center;
+	height:90px;
+	font-size:13px;
+}
+.EditRowStyle td select
+{
+	padding:3px;
+	width:150px;
+	text-align:center;
+	font-size:13px;
+}
+
+.vTop 
+{
+	vertical-align:top;
+	background-color: SteelBlue;
+	color:white;
+	padding-top:2px;
+}
+.vTop td
+{
+	vertical-align:top;
+	background-color: SteelBlue;
+	color:white;
+	padding-top:2px;
+}
+.vTop td textarea
+{
+	padding-top:2px;
+	width:150px;
+}
+
+.GridCal 
+{
+	vertical-align:top;
+	background-color: #404040;
+	color:white;
+	padding-top:2px;
+}
+.GridCal td
+{
+	vertical-align:top;
+	background-color:inherit;
+	color:white;
+	padding-top:2px;
+}
+.GridCal td textarea
+{
+	padding-top:2px;
+	width:150px;
+}
+
+/* Pager Row Style */
+.PagerRowStyle
+{
+    background-color: #f9fca7;
+    text-align: center;
+    font-size:13px;
+}
+
+/* Empty Data Row Style */
+.EmptyDataRowStyle
+{
+    background-color: #404040;
+    font-family:Candara, Arial, Tahoma;
+    color:white;
+    text-align:left;
+    padding: 2px 2px 2px 12px;
+    height:20px;
+}
+.EmptyDataRowStyle td
+{
+	font-size:13px;
+    background-color: #404040;
+    color:white;
+    text-align:left;
+    padding: 2px 2px 2px 12px;
+    height:20px;
+}
+
+/* Sort Header Row Style */
+.SortHeaderRowStyle
+{
+    background-color: #c00;
+    text-align: left;
+    font-weight: bold;
+    color: White;
+}
+
+/* hide column */
+.hiddencol
+{
+	display:none;
+}
+
+/*---------------------------------------*/
+
+/* Alternate Row Style */
+.AltRowStyle
+{
+	padding:2px;
+	vertical-align:middle;
+    background-color:whitesmoke;
+    color:#404040;
+    font-size:13px;
+}
+.AltRowStyle input[text="Text"]
+{
+	padding:2px;
+	width:150px;
+	text-align:center;
+}
+.AltRowStyle textarea
+{
+	padding:2px;
+	width:150px;
+	text-align:center;
+}
+.AltRowStyle select
+{
+	padding:2px;
+	width:150px;
+	text-align:center;
+}
+
+a.deleteBtn
+{
+	display:block;
+	background-image:url(../images/icons/delete.png);
+	background-repeat:no-repeat;
+	height:36px;
+	width:36px;
+}
+a.deleteBtn1
+{
+	display:block;
+	background-image:url(../images/icons/delete1.png);
+	background-repeat:no-repeat;
+	height:20px;
+	width:20px;
+}

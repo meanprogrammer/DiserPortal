@@ -1,0 +1,159 @@
+﻿/*table
+{
+	vertical-align:middle;
+	text-align:center;
+	width:85%;
+	padding:3px;
+	height:13px;
+}
+
+tr
+{
+	padding-left:50px;
+	color:#404040;
+	margin-left:5px;
+}
+td
+{
+	text-align:left;
+	padding:2px;
+}
+textfield
+{
+	border-color:Fuchsia;
+	color:#404040;
+	border-style:dashed;
+	height:15px;
+	background-color:Black;
+}
+input[type="text"]
+{
+	font-size:12px;
+	padding:2px;
+	height:12px;
+}
+input[type="radio"]
+{
+	color:Green;
+}
+input[type="checkbox"]
+{
+	color:Green;
+}
+input[type="submit"]
+{
+	color:#404040;
+	background-color:whitesmoke;
+}
+label
+{
+	font-size:12px;
+}
+select
+{
+	border-style:ridge;
+	border-width:3px;
+	font-size:12px;
+	height:24px;
+	margin-top:3px;
+}*/
+textarea
+{
+	/*background-color:inherit;*/
+	border-style:ridge;
+	border:1;
+	font-size:12px;
+	font-family:verdana;
+	padding:2px;
+	height:50px;
+	width:100%;
+	display:block;
+	scrollbar-highlight-color: white;
+    scrollbar-3dlight-color: white; 
+    scrollbar-darkshadow-color: white; 
+    scrollbar-track-color:#fbf7c6; /*#6067EF #404040 1C81C0*/
+    scrollbar-face-color: white; /*#2F33F3 1C81C0*/
+    scrollbar-arrow-color: #322e05;	/*#65f992*/
+    scrollbar-track-width:5px;
+}
+
+.tr_space
+{
+	height:15px;
+	padding-left:75px;
+	padding-right:75px;
+}
+
+/*td-label*/
+
+
+
+
+
+
+
+.errMsg
+{
+	font-family:Candara, Arial, Tahoma;
+	font-size:15px;
+	color:red;
+	font-style:italic;
+}
+.errMsg1
+{
+	background-image:url(../images/menubar/extender.jpg);
+	font-family:Candara, Arial, Tahoma;
+	font-size:15px;
+	color:white;
+	font-style:italic;
+	padding:80px;
+}
+
+
+
+
+
+
+
+.main 
+{	
+	/*height:193px;*/
+	text-align:center;
+	width:100%;		/*1200px*/
+	background-image:url(../images/page_extender.jpg);
+	padding-left:55px;
+}
+.main table
+{
+	padding-left:150px;
+}
+
+.upperLink
+{
+	text-decoration:none;;
+	color:White;
+}
+
+.upperLink a 
+{
+	text-decoration:none;
+	color:White;
+}
+
+.upperLink a:visited
+{
+	text-decoration:none;
+	color:White;
+}
+
+.upperLink a:hover
+{
+	text-decoration:none;
+	color:Green;
+}
+
+.upperLink a:active
+{
+	text-decoration:none;
+	color:White;
+}

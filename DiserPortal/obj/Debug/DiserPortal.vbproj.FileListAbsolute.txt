@@ -1,0 +1,34 @@
+C:\Users\Jace\Documents\01 jace\DiserPortal\DiserPortal\bin\DiserPortal.dll
+C:\Users\Jace\Documents\01 jace\DiserPortal\DiserPortal\bin\DiserPortal.pdb
+C:\Users\Jace\Documents\01 jace\DiserPortal\DiserPortal\bin\DiserPortal.xml
+C:\Users\Jace\Documents\01 jace\DiserPortal\DiserPortal\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Jace\Documents\01 jace\DiserPortal\DiserPortal\obj\Debug\DiserPortal.Resources.resources
+C:\Users\Jace\Documents\01 jace\DiserPortal\DiserPortal\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Jace\Documents\01 jace\DiserPortal\DiserPortal\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Jace\Documents\01 jace\DiserPortal\DiserPortal\obj\Debug\DiserPortal.dll
+C:\Users\Jace\Documents\01 jace\DiserPortal\DiserPortal\obj\Debug\DiserPortal.xml
+C:\Users\Jace\Documents\01 jace\DiserPortal\DiserPortal\obj\Debug\DiserPortal.pdb
+C:\websites\wwwCarrierDiser-Portal\DiserPortal\DiserPortal\bin\DiserPortal.dll
+C:\websites\wwwCarrierDiser-Portal\DiserPortal\DiserPortal\bin\DiserPortal.pdb
+C:\websites\wwwCarrierDiser-Portal\DiserPortal\DiserPortal\bin\DiserPortal.xml
+C:\websites\wwwCarrierDiser-Portal\DiserPortal\DiserPortal\obj\Debug\DiserPortal.Resources.resources
+C:\websites\wwwCarrierDiser-Portal\DiserPortal\DiserPortal\obj\Debug\DiserPortal.vbproj.GenerateResource.Cache
+C:\websites\wwwCarrierDiser-Portal\DiserPortal\DiserPortal\obj\Debug\DiserPortal.dll
+C:\websites\wwwCarrierDiser-Portal\DiserPortal\DiserPortal\obj\Debug\DiserPortal.xml
+C:\websites\wwwCarrierDiser-Portal\DiserPortal\DiserPortal\obj\Debug\DiserPortal.pdb
+D:\Copy\Web Projects\wwwCarrierDiser-Portal\DiserPortal\DiserPortal\bin\DiserPortal.dll
+D:\Copy\Web Projects\wwwCarrierDiser-Portal\DiserPortal\DiserPortal\bin\DiserPortal.pdb
+D:\Copy\Web Projects\wwwCarrierDiser-Portal\DiserPortal\DiserPortal\bin\DiserPortal.xml
+D:\Copy\Web Projects\wwwCarrierDiser-Portal\DiserPortal\DiserPortal\obj\Debug\DiserPortal.Resources.resources
+D:\Copy\Web Projects\wwwCarrierDiser-Portal\DiserPortal\DiserPortal\obj\Debug\DiserPortal.vbproj.GenerateResource.Cache
+D:\Copy\Web Projects\wwwCarrierDiser-Portal\DiserPortal\DiserPortal\obj\Debug\DiserPortal.dll
+D:\Copy\Web Projects\wwwCarrierDiser-Portal\DiserPortal\DiserPortal\obj\Debug\DiserPortal.xml
+D:\Copy\Web Projects\wwwCarrierDiser-Portal\DiserPortal\DiserPortal\obj\Debug\DiserPortal.pdb
+C:\Users\Administrator\Desktop\Carrier\wwwCarrierDiser-Portal\DiserPortal\DiserPortal\bin\DiserPortal.dll
+C:\Users\Administrator\Desktop\Carrier\wwwCarrierDiser-Portal\DiserPortal\DiserPortal\bin\DiserPortal.pdb
+C:\Users\Administrator\Desktop\Carrier\wwwCarrierDiser-Portal\DiserPortal\DiserPortal\bin\DiserPortal.xml
+C:\Users\Administrator\Desktop\Carrier\wwwCarrierDiser-Portal\DiserPortal\DiserPortal\obj\Debug\DiserPortal.Resources.resources
+C:\Users\Administrator\Desktop\Carrier\wwwCarrierDiser-Portal\DiserPortal\DiserPortal\obj\Debug\DiserPortal.vbproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\Carrier\wwwCarrierDiser-Portal\DiserPortal\DiserPortal\obj\Debug\DiserPortal.dll
+C:\Users\Administrator\Desktop\Carrier\wwwCarrierDiser-Portal\DiserPortal\DiserPortal\obj\Debug\DiserPortal.xml
+C:\Users\Administrator\Desktop\Carrier\wwwCarrierDiser-Portal\DiserPortal\DiserPortal\obj\Debug\DiserPortal.pdb

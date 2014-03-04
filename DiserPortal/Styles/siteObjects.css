@@ -1,0 +1,35 @@
+﻿input[type="text"]
+{
+	font-family:Candara, Arial, Tahoma;
+	font-size:12px;
+	height:20px;
+	font-weight:bold;
+	padding:0 3px 0 3px;
+}
+select
+{
+	font-family:Candara, Arial, Tahoma;
+	font-size:12px;
+	height:24px;
+	margin-top:3px;
+	font-weight:bold;
+}
+.txtError
+{
+	background-color:MistyRose;
+	font-style:italic;
+}
+
+
+.txtShort
+{
+	width:100px;
+}
+.txtMedium
+{
+	width:400px;
+}
+.txtLong
+{
+	width:1250px;
+}
